@@ -1,0 +1,123 @@
+body{
+    background-image: url(../img/main_bg.jpg);
+    margin: 0;
+    padding: 0;
+
+
+        /*------------------Partie header------------------*/ 
+
+    #header{
+        position: relative;
+        height: 1000px;
+        width: 100%;
+
+        #navbar-div{
+            position: fixed;
+            z-index: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;  
+            width: 100%;
+            #navbar{
+                .collapse{
+                    .navbar-nav{
+                        border-bottom:solid white 1px;
+                        border-top:solid white 1px;
+                        a:hover {
+                            background-color: red;
+                          }
+                    }
+                }
+            }
+        }
+        /*------------------Partie header------------------*/ 
+
+        
+
+
+         /*------------------Partie Carrousel------------------*/ 
+         #carouselExampleCaptions{
+
+            ol{
+                li{
+                    height: 10px;
+                    width: 10px;
+                }
+            }
+            .carousel-inner{
+                .carousel-item{
+                    img{
+                        filter: brightness(15%);
+                    }
+                }
+
+            }
+            #h1-du-carroussel{
+                border: red solid 1px;
+            }
+        }
+         /*------------------Partie Carrousel------------------*/ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /*
+        background-image: url(../img/banner1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat ;
+        */
+        
+        /*
+        #navbar-div{
+                        
+            #navbar{
+
+            position: fixed;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+                #fourchette{
+                color: white;
+                }
+       
+    
+            .collapse{
+                max-width: fit-content;
+                border-bottom:solid white 1px;
+                border-top:solid white 1px;
+                ul{
+                    li{
+                        a{
+                            color:white;
+                        }
+                    }
+                }
+
+            }
+        }*/
+
+
+
+
+
+    }
+
+    }
+
+    
+
+
+
+
