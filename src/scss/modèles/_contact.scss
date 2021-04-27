@@ -1,0 +1,26 @@
+#contact{
+    text-align: center;
+    h1{
+        font-family: 'Courgette', cursive;
+        .rouge{
+            color: red;
+            font-size: 125%;
+        }
+    }
+    #carré{
+        padding: 2%;
+        border-radius: 1em/1em;
+        background-color: red;
+        max-width: fit-content;
+        margin-left: 36%;
+        div{
+            p{
+                color: white;
+                border-bottom: white solid 1px;
+            }
+            i{
+                color: white;
+            }
+        }
+    }
+}
