@@ -16055,45 +16055,10 @@ body {
 }
 body #header {
   position: relative;
-  height: 1000px;
   width: 100%;
   /*------------------Partie header------------------*/
   /*------------------Partie Carrousel------------------*/
   /*------------------Partie Carrousel------------------*/
-  /*
-  background-image: url(../img/banner1.jpg);
-  background-size: cover;
-  background-repeat: no-repeat ;
-  */
-  /*
-  #navbar-div{
-
-      #navbar{
-
-      position: fixed;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-          #fourchette{
-          color: white;
-          }
-
-
-      .collapse{
-          max-width: fit-content;
-          border-bottom:solid white 1px;
-          border-top:solid white 1px;
-          ul{
-              li{
-                  a{
-                      color:white;
-                  }
-              }
-          }
-
-      }
-  }*/
 }
 body #header #navbar-div {
   position: fixed;
@@ -16110,28 +16075,165 @@ body #header #navbar-div #navbar .collapse .navbar-nav {
 body #header #navbar-div #navbar .collapse .navbar-nav a:hover {
   background-color: red;
 }
+body #header #carouselExampleCaptions {
+  /*------------------Partie milieu Carrousel------------------*/
+  /*------------------Partie milieu Carrousel------------------*/
+}
 body #header #carouselExampleCaptions ol li {
   height: 10px;
   width: 10px;
 }
+body #header #carouselExampleCaptions .carousel-inner {
+  position: relative;
+}
 body #header #carouselExampleCaptions .carousel-inner .carousel-item img {
   filter: brightness(15%);
 }
-body #header #carouselExampleCaptions #h1-du-carroussel {
-  border: red solid 1px;
+body #header #carouselExampleCaptions #p {
+  z-index: 2;
+  position: absolute;
+  color: white;
+  margin-top: 20%;
+  margin-left: 32%;
+  text-align: center;
+}
+body #header #carouselExampleCaptions #p h1 {
+  font-family: "Courgette", cursive;
+}
+body #header #carouselExampleCaptions #p h1 .rouge {
+  color: red;
+  font-size: 125%;
+}
+body #header #carouselExampleCaptions #p h1 .blanc {
+  font-size: 125%;
+}
+body #header #carouselExampleCaptions #p #space-button {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+body #header #carouselExampleCaptions #p #space-button button {
+  font-size: 20px;
+  border-radius: 10em/10em;
+  padding: 2%;
+  border: none;
+}
+body #header #carouselExampleCaptions #p #space-button #button-red:hover {
+  background-color: red;
+}
+body #header #img-en-dent {
+  background-image: url(../img/footer_bottom_decoration_img.png);
+  background-color: black;
+  position: absolute;
+  width: 100%;
+  height: 10px;
+  transform: rotate(180deg);
 }
 
-#section-1 {
-  background-size: auto;
-  height: 950px;
-}
+/*Media query 320-640*/
+/*
+#section-1{
+
+    background-size: auto;
+    width: 100%;
+
+    #page1{
+        background-color: whitesmoke;
+        height: 900px;
+        position: relative;
+        padding: 0;
+
+            .en-haut-droite{
+                margin-left: 895px;
+            }
+
+            #ourstory{
+                position: absolute;
+                margin-left: 30%;
+               h1{
+                   margin: 0;
+                font-family: 'Courgette', cursive;
+                    .rouge{
+                    color: red;
+                    font-size: 125%;
+                    }
+               }
+               p{
+                   max-width: fit-content;
+               }   
+            }
+
+            #div-du-bas{
+                display: flex;
+                 justify-content: space-between;
+                 margin-top: 58%;
+        }
+    }
+    */
 #section-1 #page1 {
-  background-color: red;
-  height: 900px;
-  position: relative;
+  background-color: blue;
+  width: 100%;
+  height: 800px;
+  padding-left: 0;
+  padding-right: 0;
 }
-#section-1 #page1 img {
+#section-1 #page1 #hautdepage {
+  display: flex;
+  justify-content: space-between;
+}
+#section-1 #page1 #ourstory {
   position: absolute;
+  margin-left: 23%;
+}
+#section-1 #page1 #ourstory h1 {
+  margin: 0;
+  font-family: "Courgette", cursive;
+}
+#section-1 #page1 #ourstory h1 .rouge {
+  color: red;
+  font-size: 125%;
+}
+#section-1 #page1 #ourstory p {
+  max-width: fit-content;
+}
+#section-1 #page1 #basdepage {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 49%;
+}
+
+#section-chef {
+  background-color: black;
+  width: 100%;
+  height: 600px;
+}
+#section-chef #meetourchef {
+  padding-top: 2%;
+}
+#section-chef #meetourchef h1 {
+  margin: 0;
+  font-family: "Courgette", cursive;
+}
+#section-chef #meetourchef h1 .rouge {
+  color: red;
+  font-size: 125%;
+}
+#section-chef #meetourchef img {
+  margin-left: 36%;
+}
+#section-chef #chef {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
+  text-align: center;
+}
+#section-chef #chef div img {
+  border-bottom: solid 1px grey;
+}
+#section-chef #chef div p {
+  color: white;
 }
 
 /*# sourceMappingURL=app.css.map */
