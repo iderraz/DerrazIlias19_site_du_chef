@@ -16055,7 +16055,6 @@ body {
 }
 body #header {
   position: relative;
-  width: auto;
   /*------------------Partie header------------------*/
   /*------------------Partie Carrousel------------------*/
   /*------------------Partie Carrousel------------------*/
@@ -16135,15 +16134,14 @@ body #header #img-en-dent {
 }
 
 /*Media query 320-640*/
-@media (min-width: 320px) and (max-width: 640px) {
-  body {
-    width: auto;
+@media only screen and (max-width: 900px) {
+  html {
+    width: 100vw;
+    overflow-x: hidden;
   }
-  body header {
-    width: auto;
-  }
-  body header #navbar-div {
-    z-index: none;
+
+  header {
+    height: 200px;
   }
 }
 #section-1 #page1 {
@@ -16286,7 +16284,7 @@ body #header #img-en-dent {
 }
 #page-grise #container {
   position: relative;
-  height: 900px;
+  height: 1200px;
   background-color: white;
   padding: 0;
 }
@@ -16328,12 +16326,23 @@ body #header #img-en-dent {
   height: 500px;
   width: 80%;
   margin-left: 10%;
+  margin-top: 7%;
   border-radius: 2em/2em;
 }
 #page-grise #container .les-input .row {
   display: flex;
   justify-content: center;
   margin-left: 15%;
+}
+#page-grise #container .les-input .row .col-6 {
+  display: flex;
+  flex-direction: column;
+}
+#page-grise #container .les-input button {
+  text-align: center;
+  width: 35%;
+  border-radius: 2em/2em;
+  border: none;
 }
 
 #client {
