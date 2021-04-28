@@ -1,17 +1,46 @@
 #client{
     background-image: url(../img/testimonials_background.jpg);
+    height: 450px;
 
-    height: 400px;
+
     #ourbook{
+        padding-top: 1%;
+        text-align: center;
         h1{
             margin: 0;
             font-family: 'Courgette', cursive;
+            color: black;
 
              .rouge{
              color: red;
              font-size: 125%;
-
              }
         }
+    }
+
+    #img-et-text{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        display: flex;
+        justify-content: space-evenly;
+        .testimonial-img{
+            border-radius: 50%;
+            border: 5px solid grey;
+            height: 150px;
+            width: 150px;
+        }
+    }
+
+    .text-testi{
+        border: grey solid 1px;
+        border-radius: 1em/1em;
+        text-align: left;
+        width: 30%;
+        color:white;
+        padding: 1%;
+        h5{
+            color: red;
+        }
+
     }
 }

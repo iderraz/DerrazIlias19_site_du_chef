@@ -7,9 +7,13 @@ body{
     /*------------------Partie header------------------*/ 
     #header{
         position: relative;
-        width: 100%;
+        width: auto;
+
+        
 
         #navbar-div{
+            background-color: grey;
+            opacity: 0.7;
             position: fixed;
             z-index: 1;
             display: flex;
@@ -103,12 +107,16 @@ body{
 
     @media (min-width:320px) and (max-width:640px){
 
-        header{
-            #navbar-div{
-                z-index: none;
-
+        body{
+            width: auto;
+            header{
+                width: auto;
+                #navbar-div{
+                    z-index: none;
+    
+                }
+                
             }
-            
         }
 
     }

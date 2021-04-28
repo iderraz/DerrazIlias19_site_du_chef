@@ -16055,12 +16055,14 @@ body {
 }
 body #header {
   position: relative;
-  width: 100%;
+  width: auto;
   /*------------------Partie header------------------*/
   /*------------------Partie Carrousel------------------*/
   /*------------------Partie Carrousel------------------*/
 }
 body #header #navbar-div {
+  background-color: grey;
+  opacity: 0.7;
   position: fixed;
   z-index: 1;
   display: flex;
@@ -16134,7 +16136,13 @@ body #header #img-en-dent {
 
 /*Media query 320-640*/
 @media (min-width: 320px) and (max-width: 640px) {
-  header #navbar-div {
+  body {
+    width: auto;
+  }
+  body header {
+    width: auto;
+  }
+  body header #navbar-div {
     z-index: none;
   }
 }
@@ -16172,7 +16180,6 @@ body #header #img-en-dent {
   margin-left: 30%;
 }
 #section-1 #page1 #ourstory h1 {
-  margin: 0;
   font-family: "Courgette", cursive;
 }
 #section-1 #page1 #ourstory h1 .rouge {
@@ -16276,12 +16283,10 @@ body #header #img-en-dent {
 
 #page-grise {
   position: relative;
-  height: 900px;
 }
 #page-grise #container {
   position: relative;
-  width: 100%;
-  height: 500px;
+  height: 900px;
   background-color: white;
   padding: 0;
 }
@@ -16305,18 +16310,71 @@ body #header #img-en-dent {
   bottom: 0;
   left: 0;
 }
+#page-grise #container h1 {
+  font-family: "Courgette", cursive;
+}
+#page-grise #container h1 .rouge {
+  color: red;
+  font-size: 125%;
+  margin-left: 36%;
+}
+#page-grise #container p {
+  max-width: fit-content;
+}
+#page-grise #container .les-input {
+  background-image: url(../img/book_table_bg.jpg);
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 2em/2em;
+}
+#page-grise #container .les-input .row {
+  display: flex;
+  justify-content: center;
+  margin-left: 15%;
+}
 
 #client {
   background-image: url(../img/testimonials_background.jpg);
-  height: 400px;
+  height: 450px;
+}
+#client #ourbook {
+  padding-top: 1%;
+  text-align: center;
 }
 #client #ourbook h1 {
   margin: 0;
   font-family: "Courgette", cursive;
+  color: black;
 }
 #client #ourbook h1 .rouge {
   color: red;
   font-size: 125%;
+}
+#client #img-et-text {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+#client #img-et-text .testimonial-img {
+  border-radius: 50%;
+  border: 5px solid grey;
+  height: 150px;
+  width: 150px;
+}
+#client .text-testi {
+  border: grey solid 1px;
+  border-radius: 1em/1em;
+  text-align: left;
+  width: 30%;
+  color: white;
+  padding: 1%;
+}
+#client .text-testi h5 {
+  color: red;
 }
 
 #contact {
@@ -16347,11 +16405,11 @@ body #header #img-en-dent {
 footer {
   background-color: red;
   width: 100%;
-  height: 400px;
+  height: 300px;
 }
 footer #bg-dark {
   width: 100%;
-  height: 300px;
+  height: 250px;
   background-image: url(../img/footer_background.jpg);
   background-position: center;
   display: flex;
