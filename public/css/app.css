@@ -16133,59 +16133,43 @@ body #header #img-en-dent {
 }
 
 /*Media query 320-640*/
-/*
-#section-1{
-
-    background-size: auto;
-    width: 100%;
-
-    #page1{
-        background-color: whitesmoke;
-        height: 900px;
-        position: relative;
-        padding: 0;
-
-            .en-haut-droite{
-                margin-left: 895px;
-            }
-
-            #ourstory{
-                position: absolute;
-                margin-left: 30%;
-               h1{
-                   margin: 0;
-                font-family: 'Courgette', cursive;
-                    .rouge{
-                    color: red;
-                    font-size: 125%;
-                    }
-               }
-               p{
-                   max-width: fit-content;
-               }   
-            }
-
-            #div-du-bas{
-                display: flex;
-                 justify-content: space-between;
-                 margin-top: 58%;
-        }
-    }
-    */
+@media (min-width: 320px) and (max-width: 640px) {
+  header #navbar-div {
+    z-index: none;
+  }
+}
 #section-1 #page1 {
+  position: relative;
   background-color: white;
   width: 100%;
-  height: 800px;
+  height: 1150px;
   padding-left: 0;
   padding-right: 0;
 }
-#section-1 #page1 #hautdepage {
-  display: flex;
-  justify-content: space-between;
+#section-1 #page1 #topleft {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#section-1 #page1 #topright {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#section-1 #page1 #botleft {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+#section-1 #page1 #botright {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 #section-1 #page1 #ourstory {
   position: absolute;
-  margin-left: 23%;
+  width: 40%;
+  margin-left: 30%;
 }
 #section-1 #page1 #ourstory h1 {
   margin: 0;
@@ -16198,10 +16182,64 @@ body #header #img-en-dent {
 #section-1 #page1 #ourstory p {
   max-width: fit-content;
 }
-#section-1 #page1 #basdepage {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 49%;
+#section-1 #page1 #ourmenu {
+  position: absolute;
+  margin-left: 36%;
+  margin-top: 25%;
+}
+#section-1 #page1 #ourmenu h1 {
+  margin: 0;
+  font-family: "Courgette", cursive;
+}
+#section-1 #page1 #ourmenu h1 .rouge {
+  color: red;
+  font-size: 125%;
+}
+#section-1 #page1 .menu #list-example {
+  position: absolute;
+  margin-top: 35%;
+}
+#section-1 #page1 .menu .list-grp {
+  width: 25%;
+}
+#section-1 #page1 .menu .list-grp a > i {
+  font-size: 325%;
+  color: #CECFD1;
+}
+#section-1 #page1 .menu .list-grp a {
+  font-family: "Courgette", cursive;
+}
+#section-1 #page1 .menu .list-grp a span {
+  font-size: 175%;
+}
+#section-1 #page1 .menu .list-grp > a > i:hover {
+  color: red;
+}
+#section-1 #page1 .menu .list-grp > a:hover {
+  border-right: 5px solid red;
+}
+#section-1 #page1 .menu .liste-1, #section-1 #page1 .menu .liste-2 {
+  margin-top: 35%;
+  width: 40%;
+  margin-left: 30%;
+}
+#section-1 #page1 .menu .liste-1 .div1, #section-1 #page1 .menu .liste-1 .div2, #section-1 #page1 .menu .liste-1 .div3, #section-1 #page1 .menu .liste-1 .div4, #section-1 #page1 .menu .liste-1 .div5, #section-1 #page1 .menu .liste-2 .div1, #section-1 #page1 .menu .liste-2 .div2, #section-1 #page1 .menu .liste-2 .div3, #section-1 #page1 .menu .liste-2 .div4, #section-1 #page1 .menu .liste-2 .div5 {
+  border-bottom: dotted 2px #CECFD1;
+  padding: 1%;
+}
+#section-1 #page1 .menu .liste-1 .div1 img, #section-1 #page1 .menu .liste-1 .div2 img, #section-1 #page1 .menu .liste-1 .div3 img, #section-1 #page1 .menu .liste-1 .div4 img, #section-1 #page1 .menu .liste-1 .div5 img, #section-1 #page1 .menu .liste-2 .div1 img, #section-1 #page1 .menu .liste-2 .div2 img, #section-1 #page1 .menu .liste-2 .div3 img, #section-1 #page1 .menu .liste-2 .div4 img, #section-1 #page1 .menu .liste-2 .div5 img {
+  height: 100px;
+  border-radius: 50%;
+  border: 4px solid #CECFD1;
+}
+#section-1 #page1 .menu .liste-1 .div1 p:nth-child(3), #section-1 #page1 .menu .liste-1 .div2 p:nth-child(3), #section-1 #page1 .menu .liste-1 .div3 p:nth-child(3), #section-1 #page1 .menu .liste-1 .div4 p:nth-child(3), #section-1 #page1 .menu .liste-1 .div5 p:nth-child(3), #section-1 #page1 .menu .liste-2 .div1 p:nth-child(3), #section-1 #page1 .menu .liste-2 .div2 p:nth-child(3), #section-1 #page1 .menu .liste-2 .div3 p:nth-child(3), #section-1 #page1 .menu .liste-2 .div4 p:nth-child(3), #section-1 #page1 .menu .liste-2 .div5 p:nth-child(3) {
+  background-color: #CECFD1;
+  height: 25px;
+  width: 13%;
+  color: red;
+  text-align: center;
+  width: 20%;
+  font-weight: bold;
 }
 
 #section-chef {
@@ -16234,6 +16272,51 @@ body #header #img-en-dent {
 }
 #section-chef #chef div p {
   color: white;
+}
+
+#page-grise {
+  position: relative;
+  height: 900px;
+}
+#page-grise #container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-color: white;
+  padding: 0;
+}
+#page-grise #container img:first-of-type {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#page-grise #container img:nth-of-type(2) {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#page-grise #container img:nth-of-type(3) {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#page-grise #container img:nth-of-type(4) {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#client {
+  background-image: url(../img/testimonials_background.jpg);
+  height: 400px;
+}
+#client #ourbook h1 {
+  margin: 0;
+  font-family: "Courgette", cursive;
+}
+#client #ourbook h1 .rouge {
+  color: red;
+  font-size: 125%;
 }
 
 #contact {
