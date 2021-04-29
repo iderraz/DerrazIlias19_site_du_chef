@@ -40,9 +40,15 @@
            p{
                max-width: fit-content;
                
-           } 
+           }
+           #bookyourtable{
+               h1{
+                   color:white;
+               }
+           }
         .les-input{
             background-image: url(../img/book_table_bg.jpg);
+            background-repeat: no-repeat;
             display: flex;
             justify-content: center;
             height: 500px;
@@ -59,16 +65,17 @@
                     display: flex;
                     flex-direction: column;
                 }
+                button{
+                    text-align: center;
+                    width: 35%;
+                    border-radius: 2em/2em;
+                    border: none;
+                    margin-right: 60%;
+     
+                }
 
             }
-            button{
-                text-align: center;
-                width: 35%;
-                border-radius: 2em/2em;
-                border: none;
-
-                
-            }
+     
 
         }
 
