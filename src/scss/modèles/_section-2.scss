@@ -18,6 +18,19 @@
         div{
             img{
                 border-bottom: solid 1px grey;
+            img::before{
+                    content: "";
+                    position:absolute;
+                    height: 0;
+                    bottom: 0;
+                    width: 100%;
+                    transition: 1s;
+                    background-color: lightcoral;
+                    z-index: -1;
+                }
+            img:hover::before{
+                    height: 50%;
+                }
             }
             p{
                 color: white;
