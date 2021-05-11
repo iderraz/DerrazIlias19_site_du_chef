@@ -175,6 +175,157 @@
 /*responsive pour 320px à 640px*/
 @media (min-width:320px) and (max-width:640px){
 
+    #page-grise{
+        position: relative;
+        margin: 0;   
+            img:first-of-type{
+                display: none;
+            }
+            img:nth-of-type(2){
+                display: none;
+            }
+            img:nth-of-type(3){
+                display: none;
+            }
+            img:nth-of-type(4){
+                display: none;
+            }
+            #book{
+                h1{
+                     .rouge{
+
+                     font-size: 75%;
+                     }
+                }
+            }
+    
+            #inputs{
+                background-image:url(../images/book_table_bg.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin-left: 10%;
+                margin-right: 10%;
+                border-radius: 1em/1em;
+                
+    
+                p{
+                    color: white;
+                    .grosse{
+                        font-size: 110%;
+                    }
+                }
+                #contact-center{
+                    display: flex;
+                    justify-content: center;
+                    align-items:center ;
+                    .collle{
+                        width: 50%;
+                        input{
+                            margin-bottom: 3%;
+                            border-radius: 1em/1em;
+                            padding: 3%;
+    
+    
+                        }
+                        #inputState{
+                            margin-bottom: 6%;
+                            border-radius: 1em/1em;
+                        }
+                    }
+                    .boutton-book{
+                            color: white;
+                            background: red;
+                            border-radius: 10em/10em;
+                            padding: 1%;
+                            width: 15%;
+    
+                        
+                    }
+            }
+    
+        }
+        #blog{
+            text-align: center;
+            h1{
+             font-family: 'Courgette', cursive;
+                 .rouge{
+                 color: red;
+                 font-size: 75%;
+                 }
+            }
+    
+        }
+        #blogo{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            #img-one{
+                background-image: url(../images/blog_img1.jpg);
+                height: 100px;
+                width: 200px;
+                border-radius: 1em/1em;
+                border: lightblue solid 4px;
+                position: relative;
+                p{
+                    background-color: red;
+                    border-radius: 1em/1em;
+                    max-width: max-content;
+                    position: absolute;
+                    bottom: -15%;
+                    left:12%;
+                    padding: 1%;
+                    color: white;
+                    .big{
+                        font-size: 150%;
+                    }
+    
+                }
+    
+            }
+            #img-two{
+                background-image:url(../images/blog_img2.jpg);
+                height: 100px;
+                width: 200px;
+                border-radius: 1em/1em;
+                border: lightblue solid 4px;
+                position: relative;
+                p{
+                    background-color: red;
+                    border-radius: 1em/1em;
+                    max-width: max-content;
+                    position: absolute;
+                    bottom: -15%;
+                    left:12%;
+                    padding: 1%;
+                    color: white;
+                    .big{
+                        font-size: 150%;
+                    }
+                }
+    
+            }
+          
+        }
+        #texto{display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            div{
+                text-align: left;
+            }
+    
+        }
+        .boutton-book{
+            color: white;
+            background: red;
+            border-radius: 10em/10em;
+            padding: 1%;
+            width:15%;
+        
+    }
+    }
+
+
+
 }
 
 /*responsive pour 641px à 900px*/

@@ -16353,9 +16353,6 @@ body header #carouselExampleCaptions .carousel-inner {
     height: 10px;
     width: 10px;
   }
-  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-home .rowland .colle .div1 {
-    border-bottom: 1px #CECFD1 dotted;
-  }
   #page-rouge #cafe-baba #v-pills-tabContent #v-pills-home .rowland .colle .div1 img {
     height: 50px;
     width: 50px;
@@ -16364,50 +16361,32 @@ body header #carouselExampleCaptions .carousel-inner {
   #page-rouge #cafe-baba #v-pills-tabContent #v-pills-home .rowland .colle .div1 div h6, #page-rouge #cafe-baba #v-pills-tabContent #v-pills-home .rowland .colle .div1 div p {
     font-size: 30%;
   }
-  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-home .rowland .colle .div1 .dollar {
-    width: 5%;
-    background-color: #CECFD1;
-    text-align: center;
-    color: red;
-  }
   #page-rouge #cafe-baba #v-pills-tabContent #v-pills-profile .rowland .colle .div1 {
     border-bottom: 1px #CECFD1 dotted;
   }
   #page-rouge #cafe-baba #v-pills-tabContent #v-pills-profile .rowland .colle .div1 img {
-    border-radius: 50%;
-    border: solid 4px lightblue;
+    height: 50px;
+    width: 50px;
+    border: solid 2px lightblue;
   }
-  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-profile .rowland .colle .div1 .dollar {
-    width: 15%;
-    background-color: #CECFD1;
-    text-align: center;
-    color: red;
-  }
-  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-messages .rowland .colle .div1 {
-    border-bottom: 1px #CECFD1 dotted;
+  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-profile .rowland .colle .div1 div h6, #page-rouge #cafe-baba #v-pills-tabContent #v-pills-profile .rowland .colle .div1 div p {
+    font-size: 30%;
   }
   #page-rouge #cafe-baba #v-pills-tabContent #v-pills-messages .rowland .colle .div1 img {
-    border-radius: 50%;
-    border: solid 4px lightblue;
+    height: 50px;
+    width: 50px;
+    border: solid 2px lightblue;
   }
-  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-messages .rowland .colle .div1 .dollar {
-    width: 15%;
-    background-color: #CECFD1;
-    text-align: center;
-    color: red;
-  }
-  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-settings .rowland .colle .div1 {
-    border-bottom: 1px #CECFD1 dotted;
+  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-messages .rowland .colle .div1 div h6, #page-rouge #cafe-baba #v-pills-tabContent #v-pills-messages .rowland .colle .div1 div p {
+    font-size: 30%;
   }
   #page-rouge #cafe-baba #v-pills-tabContent #v-pills-settings .rowland .colle .div1 img {
-    border-radius: 50%;
-    border: solid 4px lightblue;
+    height: 50px;
+    width: 50px;
+    border: solid 2px lightblue;
   }
-  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-settings .rowland .colle .div1 .dollar {
-    width: 15%;
-    background-color: #CECFD1;
-    text-align: center;
-    color: red;
+  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-settings .rowland .colle .div1 div h6, #page-rouge #cafe-baba #v-pills-tabContent #v-pills-settings .rowland .colle .div1 div p {
+    font-size: 30%;
   }
 }
 @media (min-width: 641px) and (max-width: 900px) {
@@ -16550,6 +16529,24 @@ body header #carouselExampleCaptions .carousel-inner {
 }
 
 /*responsive pour 320px à 640px*/
+@media (min-width: 320px) and (max-width: 640px) {
+  #section-chef #meetourchef h1 {
+    font-family: "Courgette", cursive;
+  }
+  #section-chef #meetourchef h1 .rouge {
+    color: red;
+    font-size: 75%;
+  }
+  #section-chef #chef {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  #section-chef #chef div img {
+    border-bottom: solid 1px grey;
+    height: 80px;
+  }
+}
 /*responsive pour 641px à 900px*/
 #page-grise {
   position: relative;
@@ -16700,6 +16697,137 @@ body header #carouselExampleCaptions .carousel-inner {
 }
 
 /*responsive pour 320px à 640px*/
+@media (min-width: 320px) and (max-width: 640px) {
+  #page-grise {
+    position: relative;
+    margin: 0;
+  }
+  #page-grise img:first-of-type {
+    display: none;
+  }
+  #page-grise img:nth-of-type(2) {
+    display: none;
+  }
+  #page-grise img:nth-of-type(3) {
+    display: none;
+  }
+  #page-grise img:nth-of-type(4) {
+    display: none;
+  }
+  #page-grise #book h1 .rouge {
+    font-size: 75%;
+  }
+  #page-grise #inputs {
+    background-image: url(../images/book_table_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 1em/1em;
+  }
+  #page-grise #inputs p {
+    color: white;
+  }
+  #page-grise #inputs p .grosse {
+    font-size: 110%;
+  }
+  #page-grise #inputs #contact-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #page-grise #inputs #contact-center .collle {
+    width: 50%;
+  }
+  #page-grise #inputs #contact-center .collle input {
+    margin-bottom: 3%;
+    border-radius: 1em/1em;
+    padding: 3%;
+  }
+  #page-grise #inputs #contact-center .collle #inputState {
+    margin-bottom: 6%;
+    border-radius: 1em/1em;
+  }
+  #page-grise #inputs #contact-center .boutton-book {
+    color: white;
+    background: red;
+    border-radius: 10em/10em;
+    padding: 1%;
+    width: 15%;
+  }
+  #page-grise #blog {
+    text-align: center;
+  }
+  #page-grise #blog h1 {
+    font-family: "Courgette", cursive;
+  }
+  #page-grise #blog h1 .rouge {
+    color: red;
+    font-size: 75%;
+  }
+  #page-grise #blogo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #page-grise #blogo #img-one {
+    background-image: url(../images/blog_img1.jpg);
+    height: 100px;
+    width: 200px;
+    border-radius: 1em/1em;
+    border: lightblue solid 4px;
+    position: relative;
+  }
+  #page-grise #blogo #img-one p {
+    background-color: red;
+    border-radius: 1em/1em;
+    max-width: max-content;
+    position: absolute;
+    bottom: -15%;
+    left: 12%;
+    padding: 1%;
+    color: white;
+  }
+  #page-grise #blogo #img-one p .big {
+    font-size: 150%;
+  }
+  #page-grise #blogo #img-two {
+    background-image: url(../images/blog_img2.jpg);
+    height: 100px;
+    width: 200px;
+    border-radius: 1em/1em;
+    border: lightblue solid 4px;
+    position: relative;
+  }
+  #page-grise #blogo #img-two p {
+    background-color: red;
+    border-radius: 1em/1em;
+    max-width: max-content;
+    position: absolute;
+    bottom: -15%;
+    left: 12%;
+    padding: 1%;
+    color: white;
+  }
+  #page-grise #blogo #img-two p .big {
+    font-size: 150%;
+  }
+  #page-grise #texto {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #page-grise #texto div {
+    text-align: left;
+  }
+  #page-grise .boutton-book {
+    color: white;
+    background: red;
+    border-radius: 10em/10em;
+    padding: 1%;
+    width: 15%;
+  }
+}
 /*responsive pour 641px à 900px*/
 #client {
   background-image: url(../images/testimonials_background.jpg);
