@@ -1,4 +1,5 @@
 #contact{
+
     text-align: center;
     h1{
         font-family: 'Courgette', cursive;
@@ -7,12 +8,16 @@
             font-size: 125%;
         }
     }
+   #carré-dom{
+       display: flex;
+       justify-content: center;
+
     #carré{
         padding: 2%;
         border-radius: 1em/1em;
         background-color: red;
         max-width: fit-content;
-        margin-left: 36%;
+
         div{
             p{
                 color: white;
@@ -20,7 +25,21 @@
             }
             i{
                 color: white;
+                font-size: 3em;
             }
         }
     }
+   }
+}
+
+
+
+/*responsive pour 320px à 640px*/
+@media (min-width:320px) and (max-width:640px){
+
+}
+
+/*responsive pour 641px à 900px*/
+@media (min-width:641px) and (max-width:900px){
+
 }

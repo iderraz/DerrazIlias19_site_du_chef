@@ -1,26 +1,18 @@
 #client{
-    background-image: url(../img/testimonials_background.jpg);
+    background-image: url(../images/testimonials_background.jpg);
     height: 450px;
-
-
     #ourbook{
-        padding-top: 1%;
         text-align: center;
         h1{
-            margin: 0;
             font-family: 'Courgette', cursive;
             color: black;
-
              .rouge{
              color: red;
              font-size: 125%;
              }
         }
     }
-
     #img-et-text{
-        margin-top: 5%;
-        margin-bottom: 5%;
         display: flex;
         justify-content: space-evenly;
         .testimonial-img{
@@ -30,7 +22,6 @@
             width: 150px;
         }
     }
-
     .text-testi{
         border: grey solid 1px;
         border-radius: 1em/1em;
@@ -41,6 +32,17 @@
         h5{
             color: red;
         }
-
     }
+}
+
+
+
+/*responsive pour 320px à 640px*/
+@media (min-width:320px) and (max-width:640px){
+
+}
+
+/*responsive pour 641px à 900px*/
+@media (min-width:641px) and (max-width:900px){
+
 }

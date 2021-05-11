@@ -10,40 +10,45 @@
 </head>
 
 <body>
+  <!-- début du header -->
+  <header>
 
-  <header id="header">
 
+    <!-- navbar -->
+    <div class="" id="new">
+      <nav class="navbar navbar-expand-lg navbar-light" id="new2">
+        <div id="pack1">
+          <a class="navbar-brand" href="#">Home</a>
+          <a class="navbar-brand" href="#">About us</a>
+          <a class="navbar-brand" href="#">Menu list</a>
+          <a class="navbar-brand" href="#">Team</a>
+        </div>
 
-    <!--navbar-->
-    <div id="navbar-div" class="mt-4">
-      <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+        <img src="./public/images/logo.png" alt="" class="ml-5 mr-5">
 
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link text-light" href="#">HOME</a>
-            <a class="nav-link text-light" href="#">ABOUT US</a>
-            <a class="nav-link text-light" href="#">MENU LIST</a>
-            <a class="nav-link text-light" href="#">TEAM</a>
-          </div>
-
-          <div><img src="./public/img/logo.png" class="mr-5 ml-5" alt=""></div>
-
-          <div class="collapse navbar-collapse" id="">
-            <div class="navbar-nav">
-              <a class="nav-link text-light" href="#">RESERVATION</a>
-              <a class="nav-link text-light" href="#">BLOG</a>
-              <a class="nav-link text-light" href="#">TESTIMONIALS</a>
-              <a class="nav-link text-light" href="#">CONTACT US</a>
-            </div>
-
-          </div>
+        <div id="pack2">
+          <a class="navbar-brand" href="#">Reservation</a>
+          <a class="navbar-brand" href="#">Blog</a>
+          <a class="navbar-brand" href="#">Testimonials</a>
+          <a class="navbar-brand" href="#">Contact us</a>
+        </div>
       </nav>
     </div>
-    <!--navbar-->
+    <!-- navbar -->
 
-
-
+    <!-- carrousel-->
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+
+      <div id="p">
+        <h1>Whatever your <span class="blanc">OCCASSION</span></h1>
+        <h1><span class="rouge">TASTE</span> <span class="blanc">makes</span> it one</h1>
+        <h1>to <span class="blanc">remember!</span></h1>
+        <div id="space-button" class="mt-5">
+          <button class="button-red">PURCHASE THEM</button>
+          <button class="button-red">LEARN MORE</button>
+        </div>
+      </div>
+
 
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active rounded-circle"></li>
@@ -52,251 +57,577 @@
       </ol>
 
       <div class="carousel-inner">
-        <div id="p">
-          <h1>Whatever your <span class="blanc">OCCASSION</span></h1>
-          <h1><span class="rouge">TASTE</span> <span class="blanc">makes</span> it one</h1>
-          <h1>to <span class="blanc">remember!</span></h1>
-          <div id="space-button">
-            <button>PURCHASE THEM</button>
-            <button id="button-red">LEARN MORE</button>
-          </div>
-        </div>
+
 
         <div class="carousel-item active">
-          <img src="./public/img/banner1.jpg" class="d-block w-100" alt="...">
+          <img src="./public/images/banner1.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption">
           </div>
         </div>
 
         <div class="carousel-item">
-          <img src="./public/img/banner1.jpg" class="d-block w-100" alt="...">
+          <img src="./public/images/banner1.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption">
           </div>
         </div>
 
         <div class="carousel-item">
-          <img src="./public/img/banner1.jpg" class="d-block w-100" alt="...">
+          <img src="./public/images/banner1.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption">
           </div>
 
         </div>
       </div>
     </div>
-    <div id="img-en-dent"></div>
+    <!-- carrousel-->
 
   </header>
-  <!---------------------fin-du-header-------------------->
+  <!-- fin du header -->
 
-
-  <!---------------------section-1-------------------->
-  <section id="section-1" class="mt-5">
-    <div id="page1" class="container">
-
-
-      <img src="./public/img/box-left-top.png" alt="" id="topleft">
-      <img src="./public/img/box-right-top.png" alt="" id="topright">
-      <img src="./public/img/box-bottom-left.png" alt="" id="botleft">
-      <img src="./public/img/box-bottom_right.png" alt="" id="botright">
-
-
-      <div id="ourstory" class=" mt-5 text-center">
-
-        <h1><span class="rouge">OUR</span> story</h1>
-        <br>
-        <img src="./public/img/decoration_line.png" alt="">
-
-        <p class="text-center mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam iste illum id
-          ducimus
-          labore ipsa eaque
-          alias deserunt numquam suscipit reprehenderit sit adipisci animi dolores doloribus minima dicta magni
-          voluptates, aliquid aperiam atque ea recusandae?</p>
-
-      </div>
-
-      <div id="ourmenu">
-        <h1><span class="rouge">OUR</span> menu list</h1>
-      </div>
-
-
-      <div class="menu d-flex justify-content-evenly container">
-
-        <div id="list-example" class="list-grp">
-          <a class="list-group-item list-group-item-action d-flex flex-column text-center" href="#list-item-1"><i
-              class="fas fa-mug-hot p-3"></i> <span>Breakfast</span></a>
-          <a class="list-group-item list-group-item-action d-flex flex-column text-center" href="#list-item-2">
-            <i class="fas fa-bread-slice"></i> <span>Lunch</span></a>
-          <a class="list-group-item list-group-item-action d-flex flex-column text-center" href="#list-item-3"><i
-              class="fas fa-concierge-bell p-3"></i> <span>Snacks</span></a>
-          <a class="list-group-item list-group-item-action d-flex flex-column text-center" href="#list-item-4"><i
-              class="fas fa-mug-hot p-3"></i> <span>Dinner</span></a>
-        </div>
-
-
-        <!--------------partie-liste-gauche------------>
-        <div class="liste-1">
-          <div class="div1 d-flex justify-content-center align-items-center">
-            <img class="mr-3" src="./public/img/menu_image_1.jpg" alt="">
-            <div>
-              <h6>Deer Steak with Potatoes</h6>
-              <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
-            </div>
-            <p class="ml-3">$25</p>
-          </div>
-
-
-          <div class="div2 d-flex justify-content-center align-items-center ">
-            <img class="mr-3" src="./public/img/menu_image_1.jpg" alt="">
-            <div>
-              <h6>Deer Steak with Potatoes</h6>
-              <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
-            </div>
-            <p class="ml-3">$25</p>
-          </div>
-
-
-          <div class="div3 d-flex justify-content-center align-items-center">
-            <img class="mr-3" src="./public/img/menu_image_1.jpg" alt="">
-            <div>
-              <h6>Deer Steak with Potatoes</h6>
-              <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
-            </div>
-            <p class="ml-3">$25</p>
-          </div>
-
-          <div class="div4 d-flex justify-content-center align-items-center">
-            <img class="mr-3" src="./public/img/menu_image_1.jpg" alt="">
-            <div>
-              <h6>Deer Steak with Potatoes</h6>
-              <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
-            </div>
-            <p class="ml-3">$25</p>
-          </div>
-
-          <div class="div5 d-flex justify-content-center align-items-center">
-            <img class="mr-3" src="./public/img/menu_image_1.jpg" alt="">
-            <div>
-              <h6>Deer Steak with Potatoes</h6>
-              <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
-            </div>
-            <p class="ml-3">$25</p>
-          </div>
-
-        </div>
-        <!--------------partie-liste-gauche------------>
-
-
-
-        <!--------------partie-liste-droite------------>
-        <div class="liste-2 ml-5">
-          <div class="div1 d-flex justify-content-center align-items-center">
-            <img class="mr-3" src="./public/img/menu_image_1.jpg" alt="">
-            <div>
-              <h6>Deer Steak with Potatoes</h6>
-              <p>Lorem ipsum dolor sit.<br>Lorem ipsum dolor sit amet consectetur.</p>
-            </div>
-            <p class="ml-3">$35</p>
-          </div>
-
-          <div class="div2 d-flex justify-content-center align-items-center">
-            <img class="mr-3" src="./public/img/menu_image_1.jpg" alt="">
-            <div>
-              <h6>Deer Steak with Potatoes</h6>
-              <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
-            </div>
-            <p class="ml-3">$35</p>
-          </div>
-
-          <div class="div3 d-flex justify-content-center align-items-center">
-            <img class="mr-3" src="./public/img/menu_image_1.jpg" alt="">
-            <div>
-              <h6>Deer Steak with Potatoes</h6>
-              <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
-            </div>
-            <p class="ml-3">$35</p>
-          </div>
-
-          <div class="div4 d-flex justify-content-center align-items-center">
-            <img class="mr-3" src="./public/img/menu_image_1.jpg" alt="">
-            <div>
-              <h6>Deer Steak with Potatoes</h6>
-              <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
-            </div>
-            <p class="ml-3">$35</p>
-          </div>
-
-          <div class="div5 d-flex justify-content-center align-items-center">
-            <img class="mr-3" src="./public/img/menu_image_1.jpg" alt="">
-            <div>
-              <h6>Deer Steak with Potatoes</h6>
-              <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
-            </div>
-            <p class="ml-3">$35</p>
-          </div>
-
-        </div>
-        <!--------------partie-liste-droite------------>
-
-      </div>
-      <div class="text-center mt-5"><img src="./public/img/decoration_line.png" alt=""></div>
-
+  <!-- image en dent  -->
+  <section id="image-en-dent">
+    <div id="dentier">
     </div>
+  </section>
+  <!-- image en dent  -->
+
+  <!-- début page rouge -->
+  <section id="page-rouge" class="">
+
+
+    <img src="./public/images/box-left-top.png" alt="" id="topleft">
+    <img src="./public/images/box-right-top.png" alt="" id="topright">
+    <img src="./public/images/box-bottom-left.png" alt="" id="botleft">
+    <img src="./public/images/box-bottom_right.png" alt="" id="botright">
+
+    <div id="ourstory">
+      <h1 class="mt-5"><span class="rouge">OUR</span> story</h1>
+      <img src="./public/images/decoration_line.png" alt="">
+      <p id="paragraphe" class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam iste illum id
+        ducimus
+        labore ipsa eaque
+        alias deserunt numquam suscipit reprehenderit sit adipisci animi dolores doloribus minima dicta magni
+        voluptates, aliquid aperiam atque ea recusandae?Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        Aperiam consectetur corporis facilis fugiat rerum a quibusdam natus temporibus ipsum architecto!</p>
+    </div>
+
+    <div id="ourmenu" class="mt-4">
+      <h1><span class="rouge">OUR</span> menu list</h1>
+      <img src="./public/images/decoration_line.png" alt="">
+    </div>
+
+
+
+
+    <!-- div café-->
+    <div class="row mt-5" id="cafe">
+      <div class="col-3" id="click">
+        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+          <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
+            aria-controls="v-pills-home" aria-selected="true"><i class="fas fa-mug-hot p-3"></i>
+            <span>Breakfast</span></a>
+          <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
+            aria-controls="v-pills-profile" aria-selected="false"><i class="fas fa-concierge-bell p-3"></i>
+            <span>Lunch</span></a>
+          <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
+            aria-controls="v-pills-messages" aria-selected="false"><i class="fas fa-concierge-bell p-3"></i>
+            <span>Snacks</span></a>
+          <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+            aria-controls="v-pills-settings" aria-selected="false"><i class="fas fa-mug-hot p-3"></i>
+            <span>Dinner</span></a>
+        </div>
+      </div>
+
+
+      <div class="col-9" id="cafe-baba">
+
+
+        <div class="tab-content" id="v-pills-tabContent">
+          <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+
+
+
+
+            <!-- colonne avec images-->
+
+            <div class="rowland row">
+
+              <div class="colle col-6">
+
+
+                <div class="div1 d-flex justify-content-center align-items-center mb-3">
+                  <img class="mr-3" src="./public/images/menu_image_1.jpg" alt="">
+                  <div>
+                    <h6>Deer Steak with Potatoes</h6>
+                    <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <p class="dollar ml-3">$25</p>
+                </div>
+
+                <div class="div1 d-flex justify-content-center align-items-center mb-3">
+                  <img class="mr-3" src="./public/images/menu_image_1.jpg" alt="">
+                  <div>
+                    <h6>Deer Steak with Potatoes</h6>
+                    <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <p class="dollar ml-3">$25</p>
+                </div>
+
+                <div class="div1 d-flex justify-content-center align-items-center mb-3">
+                  <img class="mr-3" src="./public/images/menu_image_1.jpg" alt="">
+                  <div>
+                    <h6>Deer Steak with Potatoes</h6>
+                    <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <p class="dollar ml-3">$25</p>
+                </div>
+
+                <div class="div1 d-flex justify-content-center align-items-center mb-3">
+                  <img class="mr-3" src="./public/images/menu_image_1.jpg" alt="">
+                  <div>
+                    <h6>Deer Steak with Potatoes</h6>
+                    <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <p class=" dollar ml-3">$25</p>
+                </div>
+
+              </div>
+
+
+
+              <div class=" colle col-6">
+
+
+                <div class="div1 d-flex justify-content-center align-items-center mb-3">
+                  <img class="mr-3" src="./public/images/menu_image_1.jpg" alt="">
+                  <div>
+                    <h6>Deer Steak with Potatoes</h6>
+                    <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <p class="dollar ml-3">$25</p>
+                </div>
+
+                <div class="div1 d-flex justify-content-center align-items-center mb-3">
+                  <img class="mr-3" src="./public/images/menu_image_1.jpg" alt="">
+                  <div>
+                    <h6>Deer Steak with Potatoes</h6>
+                    <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <p class="dollar ml-3">$25</p>
+                </div>
+
+                <div class="div1 d-flex justify-content-center align-items-center mb-3">
+                  <img class="mr-3" src="./public/images/menu_image_1.jpg" alt="">
+                  <div>
+                    <h6>Deer Steak with Potatoes</h6>
+                    <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <p class="dollar ml-3">$25</p>
+                </div>
+
+                <div class="div1 d-flex justify-content-center align-items-center mb-3">
+                  <img class="mr-3" src="./public/images/menu_image_1.jpg" alt="">
+                  <div>
+                    <h6>Deer Steak with Potatoes</h6>
+                    <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <p class="dollar ml-3">$25</p>
+                </div>
+
+              </div>
+
+
+
+
+            </div>
+
+
+            <!-- colonne breakfast avec images-->
+
+
+
+          </div>
+
+
+
+          <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+
+
+            <!-- colonne lunch avec images-->
+            <div class="rowland row">
+
+              <div class=" colle col-6">
+
+
+                <div class="div1 d-flex justify-content-center align-items-center mb-3">
+                  <img class="mr-3" src="./public/images/menu_image_2.jpg" alt="">
+                  <div>
+                    <h6>Deer Steak with Potatoes</h6>
+                    <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <p class="dollar ml-3">$25</p>
+                </div>
+
+                <div class="div1 d-flex justify-content-center align-items-center mb-3">
+                  <img class="mr-3" src="./public/images/menu_image_2.jpg" alt="">
+                  <div>
+                    <h6>Deer Steak with Potatoes</h6>
+                    <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <p class="dollar ml-3">$25</p>
+                </div>
+
+                <div class="div1 d-flex justify-content-center align-items-center mb-3">
+                  <img class="mr-3" src="./public/images/menu_image_2.jpg" alt="">
+                  <div>
+                    <h6>Deer Steak with Potatoes</h6>
+                    <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <p class="dollar ml-3">$25</p>
+                </div>
+
+                <div class="div1 d-flex justify-content-center align-items-center mb-3">
+                  <img class="mr-3" src="./public/images/menu_image_2.jpg" alt="">
+                  <div>
+                    <h6>Deer Steak with Potatoes</h6>
+                    <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <p class="dollar ml-3">$25</p>
+                </div>
+
+              </div>
+
+
+
+              <div class="colle col-6">
+
+
+                <div class="div1 d-flex justify-content-center align-items-center mb-3">
+                  <img class="mr-3" src="./public/images/menu_image_2.jpg" alt="">
+                  <div>
+                    <h6>Deer Steak with Potatoes</h6>
+                    <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <p class="dollar ml-3">$25</p>
+                </div>
+
+                <div class="div1 d-flex justify-content-center align-items-center mb-3">
+                  <img class="mr-3" src="./public/images/menu_image_2.jpg" alt="">
+                  <div>
+                    <h6>Deer Steak with Potatoes</h6>
+                    <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <p class="dollar ml-3">$25</p>
+                </div>
+
+                <div class="div1 d-flex justify-content-center align-items-center mb-3">
+                  <img class="mr-3" src="./public/images/menu_image_2.jpg" alt="">
+                  <div>
+                    <h6>Deer Steak with Potatoes</h6>
+                    <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <p class="dollar ml-3">$25</p>
+                </div>
+
+                <div class="div1 d-flex justify-content-center align-items-center mb-3">
+                  <img class="mr-3" src="./public/images/menu_image_2.jpg" alt="">
+                  <div>
+                    <h6>Deer Steak with Potatoes</h6>
+                    <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <p class="dollar ml-3">$25</p>
+                </div>
+
+              </div>
+
+
+            </div>
+
+            <!-- colonne lunch avec images-->
+
+
+
+
+
+
+          </div>
+
+
+
+
+
+          <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+
+
+            <!-- colonne snack avec images-->
+
+            <div class="rowland row">
+
+              <div class="colle col-6">
+
+
+                <div class="div1 d-flex justify-content-center align-items-center mb-3">
+                  <img class="mr-3" src="./public/images/menu_image_3.jpg" alt="">
+                  <div>
+                    <h6>Deer Steak with Potatoes</h6>
+                    <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <p class="dollar ml-3">$25</p>
+                </div>
+
+                <div class="div1 d-flex justify-content-center align-items-center mb-3">
+                  <img class="mr-3" src="./public/images/menu_image_3.jpg" alt="">
+                  <div>
+                    <h6>Deer Steak with Potatoes</h6>
+                    <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <p class="dollar ml-3">$25</p>
+                </div>
+
+                <div class="div1 d-flex justify-content-center align-items-center mb-3">
+                  <img class="mr-3" src="./public/images/menu_image_3.jpg" alt="">
+                  <div>
+                    <h6>Deer Steak with Potatoes</h6>
+                    <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <p class="dollar ml-3">$25</p>
+                </div>
+
+                <div class="div1 d-flex justify-content-center align-items-center mb-3">
+                  <img class="mr-3" src="./public/images/menu_image_3.jpg" alt="">
+                  <div>
+                    <h6>Deer Steak with Potatoes</h6>
+                    <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <p class="dollar ml-3">$25</p>
+                </div>
+
+              </div>
+
+
+
+              <div class="colle col-6">
+
+
+                <div class="div1 d-flex justify-content-center align-items-center mb-3">
+                  <img class="mr-3" src="./public/images/menu_image_3.jpg" alt="">
+                  <div>
+                    <h6>Deer Steak with Potatoes</h6>
+                    <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <p class="dollar ml-3">$25</p>
+                </div>
+
+                <div class="div1 d-flex justify-content-center align-items-center mb-3">
+                  <img class="mr-3" src="./public/images/menu_image_3.jpg" alt="">
+                  <div>
+                    <h6>Deer Steak with Potatoes</h6>
+                    <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <p class="dollar ml-3">$25</p>
+                </div>
+
+                <div class="div1 d-flex justify-content-center align-items-center mb-3">
+                  <img class="mr-3" src="./public/images/menu_image_3.jpg" alt="">
+                  <div>
+                    <h6>Deer Steak with Potatoes</h6>
+                    <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <p class="dollar ml-3">$25</p>
+                </div>
+
+                <div class="div1 d-flex justify-content-center align-items-center mb-3">
+                  <img class="mr-3" src="./public/images/menu_image_3.jpg" alt="">
+                  <div>
+                    <h6>Deer Steak with Potatoes</h6>
+                    <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <p class="dollar ml-3">$25</p>
+                </div>
+
+              </div>
+
+
+            </div>
+
+
+
+            <!-- colonne snack avec images-->
+
+
+
+
+
+
+          </div>
+
+
+
+
+          <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+
+
+            <!-- colonne dinnver avec images-->
+
+            <div class="rowland row">
+
+              <div class="colle col-6">
+
+
+                <div class="div1 d-flex justify-content-center align-items-center mb-3">
+                  <img class="mr-3" src="./public/images/menu_image_4.jpg" alt="">
+                  <div>
+                    <h6>Deer Steak with Potatoes</h6>
+                    <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <p class="dollar ml-3">$25</p>
+                </div>
+
+                <div class="div1 d-flex justify-content-center align-items-center mb-3">
+                  <img class="mr-3" src="./public/images/menu_image_4.jpg" alt="">
+                  <div>
+                    <h6>Deer Steak with Potatoes</h6>
+                    <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <p class="dollar ml-3">$25</p>
+                </div>
+
+                <div class="div1 d-flex justify-content-center align-items-center mb-3">
+                  <img class="mr-3" src="./public/images/menu_image_4.jpg" alt="">
+                  <div>
+                    <h6>Deer Steak with Potatoes</h6>
+                    <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <p class="dollar ml-3">$25</p>
+                </div>
+
+                <div class="div1 d-flex justify-content-center align-items-center mb-3">
+                  <img class="mr-3" src="./public/images/menu_image_4.jpg" alt="">
+                  <div>
+                    <h6>Deer Steak with Potatoes</h6>
+                    <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <p class="dollar ml-3">$25</p>
+                </div>
+
+              </div>
+
+
+
+              <div class="colle col-6">
+
+
+                <div class="div1 d-flex justify-content-center align-items-center mb-3">
+                  <img class="mr-3" src="./public/images/menu_image_4.jpg" alt="">
+                  <div>
+                    <h6>Deer Steak with Potatoes</h6>
+                    <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <p class="dollar ml-3">$25</p>
+                </div>
+
+                <div class="div1 d-flex justify-content-center align-items-center mb-3">
+                  <img class="mr-3" src="./public/images/menu_image_4.jpg" alt="">
+                  <div>
+                    <h6>Deer Steak with Potatoes</h6>
+                    <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <p class="dollar ml-3">$25</p>
+                </div>
+
+                <div class="div1 d-flex justify-content-center align-items-center mb-3">
+                  <img class="mr-3" src="./public/images/menu_image_4.jpg" alt="">
+                  <div>
+                    <h6>Deer Steak with Potatoes</h6>
+                    <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <p class="dollar ml-3">$25</p>
+                </div>
+
+                <div class="div1 d-flex justify-content-center align-items-center mb-3">
+                  <img class="mr-3" src="./public/images/menu_image_4.jpg" alt="">
+                  <div>
+                    <h6>Deer Steak with Potatoes</h6>
+                    <p>Lorem ipsum dolor sit. <br>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <p class="dollar ml-3">$25</p>
+                </div>
+
+              </div>
+
+
+            </div>
+
+            <!-- colonne dinner avec images-->
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <div id="imageu">
+
+      <img src="./public/images/decoration_line.png" alt="" class="mb-5 mt-5">
     </div>
 
   </section>
-  <!---------------------fin-section-1-------------------->
+  <!-- fin page rouge -->
 
+    <!-- section chef-->
+    <section id="section-chef" class="">
 
-
-  <!----------------------section-chef-------------------->
-  <section id="section-chef" class="mt-5">
-
-    <div id="meetourchef" class="">
-      <h1 class="text-center"><span class="rouge">MEET</span> our chef</h1>
-      <img src="./public/img/decoration_line.png" alt="">
-    </div>
-
-    <div id="chef" class="">
-      <div>
-        <img src="./public/img/chef1.png" alt="">
-        <p>chef1</p>
+      <div id="meetourchef" class="mb-5 mt-5">
+        <h1 class="text-center"><span class="rouge">MEET</span> our chef</h1>
+        <img src="./public/images/decoration_line.png" class="" alt="">
       </div>
-      <div>
-        <img src="./public/img/chef2.png" alt="">
-        <p>chef2</p>
+  
+      <div id="chef" class="">
+        <div>
+          <img src="./public/images/chef1.png" alt="">
+          <p>chef1</p>
+        </div>
+        <div>
+          <img src="./public/images/chef2.png" alt="">
+          <p>chef2</p>
+        </div>
+        <div>
+          <img src="./public/images/chef3.png" alt="">
+          <p>chef3</p>
+        </div>
+        <div>
+          <img src="./public/images/chef4.png" alt="">
+          <p>chef4</p>
+        </div>
       </div>
-      <div>
-        <img src="./public/img/chef3.png" alt="">
-        <p>chef3</p>
+    </section>
+    <!-- section chef-->
+  
+  
+    <!--------------------section-grise------------------------->
+  
+    <section id="page-grise">
+  
+      <img src="./public/images/box-right-top-grey.png" class="toprigth" alt="">
+      <img src="./public/images/box-left-top-grey.png" alt="">
+      <img src="./public/images/box-bottom_right-grey.png" alt="">
+      <img src="./public/images/box-bottom-left-grey.png" alt="">
+  
+      <div id="book" class="mt-4 pt-5">
+        <h1><span class="rouge">BOOK</span> you table</h1>
       </div>
-      <div>
-        <img src="./public/img/chef4.png" alt="">
-        <p>chef4</p>
-      </div>
-    </div>
-  </section>
-  <!----------------------section-chef-------------------->
-
-
-
-
-  <!--------------------section-grise------------------------->
-  <section id="page-grise" class="container-fluid">
-    <div id="container" class="container">
-
-      <img src="./public/img/box-right-top-grey.png" class="toprigth" alt="">
-      <img src="./public/img/box-left-top-grey.png" alt="">
-      <img src="./public/img/box-bottom_right-grey.png" alt="">
-      <img src="./public/img/box-bottom-left-grey.png" alt="">
-
-      <div id="Bookyourtable">
-        <h1 class="pt-5"><span class="rouge">Book</span> your table</h1>
-      </div>
-      <div class="les-input  ">
-
-        <!--colonne-->
-        <div class="row d-flex align-content-center ">
-          <p class="p-5">for any query please call us at : <span class="grosse">+91-1234567890</span></p>
-          <div class="col-6 p-0">
+      <img src="./public/images/decoration_line.png" alt="" class="pb-5">
+  
+  
+      <div id="inputs">
+  
+        <p class="p-5">For any query please call us at : <span class="grosse">+91-1234567890</span></p>
+        <div class="row" id="contact-center">
+  
+          <div class="col-3"></div>
+  
+          <div class="collle col-4 p-0">
             <input type="text" class="form-control w-50" placeholder="Enter full name" aria-label="Server">
             <input type="text" class="form-control w-50" placeholder="Phone number" aria-label="Server">
             <input type="text" class="form-control w-50" placeholder="Date" aria-label="Server">
@@ -306,8 +637,8 @@
               </select>
             </div>
           </div>
-          <!--colonne-->
-          <div class="col-6 p-0">
+  
+          <div class="collle col-4 p-0">
             <input type="text" class="form-control w-50" placeholder="Enter id" aria-label="Server">
             <div class="w-50">
               <select id="inputState" class="form-control">
@@ -320,142 +651,202 @@
                 </select>
               </div>
             </div>
-            <!--colonne-->
-
           </div>
-
-          <div class="btn-group-toggle mt-5 mr-5" data-toggle="buttons">
-            <label class="btn btn-secondary active">
-              <input type="checkbox" checked> Checked
-            </label>
+          <div class="col-1"></div>
+  
+          <button class="boutton-book mt-5 mb-5">BOOK NOW </button>
+  
+  
+  
+        </div>
+  
+  
+  
+  
+  
+  
+  
+  
+      </div>
+      <div id="blog" class="mt-4 ">
+        <h1><span class="rouge">OUR</span> blog</h1>
+      </div>
+      <img src="./public/images/decoration_line.png" alt="" class="mb-5">
+  
+  
+  
+  
+  
+  
+      <div id="blogo">
+        <div id="img-one">
+          <p><span class="big">12</span>
+            April 2017<span class="big">/ 20</span>Comment<span class="big"> 35</span>Likes</p>
+        </div>
+        <div id="img-two">
+          <p><span class="big">12</span>
+            April 2017<span class="big">/ 20</span>Comment<span class="big"> 35</span>Likes</p>
+        </div>
+      </div>
+  
+      <div id="texto" class="mt-3">
+  
+        <div>
+  
+          <h4>Lorem ipsum</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+        </div>
+  
+        <div>
+  
+          <h4>Lorem ipsum</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+        </div>
+      </div>
+  
+      <button class="boutton-book mt-5">BOOK NOW </button>
+  
+  
+  
+  
+  
+      </div>
+  
+  
+  
+  
+  
+  
+  
+    </section>
+    <!---------------------fin-section-grise-------------------->
+  
+  
+    <!-----------------------------client----------------------------->
+    <section id="client">
+  
+      <div id="ourbook" class="mt-5 pt-5">
+        <h1><span class="rouge">Client</span> testimonials</h1>
+        <img src="./public/images/decoration_line.png" alt="">
+      </div>
+  
+      <div id="img-et-text" class="mt-5">
+        <img src="./public/images/testimonial1.jpg" alt="" class="testimonial-img">
+        <div class="text-testi">
+          <h1>Lorem ipsum</h1>
+          <h5>Manager</h5>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus recusandae sint voluptate dolorum! Iste,
+            explicabo!</p>
+        </div>
+  
+  
+        <div class="text-testi">
+          <h1>Lorem ipsum</h1>
+          <h5>Manager</h5>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus recusandae sint voluptate dolorum! Iste,
+            explicabo!</p>
+        </div>
+        <img src="./public/images/testimonial1.jpg" alt="" class="testimonial-img">
+  
+      </div>
+  
+    </section>
+    <!-----------------------------client----------------------------->
+  
+  
+    <!-----------------------------contact----------------------------->
+    <section id="contact" class="pb-5 pt-5">
+      <h1><span class="rouge">OUR</span> story</h1>
+      <img src="./public/images/decoration_line.png" alt="">
+      
+      <div id="carré-dom" class="mt-5">
+  
+        <div id="carré">
+  
+          <div>
+            <i class="fas fa-map-marker-alt"></i>
+            <p class="pb-2">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
           </div>
-
-
+    
+          <div>
+            <i class="fas fa-phone-alt"></i>
+            <p class="pb-2">+32-3224-3423-454</p>
+          </div>
+    
+          <div>
+            <i class="fas fa-envelope"></i>
+            <p class="pb-2">abc@abc.com</p>
+          </div>
+    
         </div>
-  </section>
-  <!---------------------fin-section-grise-------------------->
-
-
-
-  <!-----------------------------client----------------------------->
-  <section id="client">
-
-    <div id="ourbook">
-      <h1><span class="rouge">Client</span> testimonials</h1>
-      <br>
-      <img src="./public/img/decoration_line.png" alt="">
-    </div>
-
-    <div id="img-et-text" class="">
-      <img src="./public/img/testimonial1.jpg" alt="" class="testimonial-img">
-      <div class="text-testi">
-        <h1>Lorem ipsum</h1>
-        <h5>Manager</h5>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus recusandae sint voluptate dolorum! Iste,
-          explicabo!</p>
+  
+  
       </div>
-
-
-      <div class="text-testi">
-        <h1>Lorem ipsum</h1>
-        <h5>Manager</h5>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus recusandae sint voluptate dolorum! Iste,
-          explicabo!</p>
-      </div>
-      <img src="./public/img/testimonial1.jpg" alt="" class="testimonial-img">
-
-    </div>
-
-  </section>
-  <!-----------------------------client----------------------------->
-
-
-  <!-----------------------------contact----------------------------->
-  <section id="contact" class="pb-5 pt-5">
-    <h1><span class="rouge">OUR</span> story</h1>
-    <div id="carré">
-
-      <div>
-        <i class="fas fa-map-marker-alt"></i>
-        <p class="pb-2">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-      </div>
-
-      <div>
-        <i class="fas fa-phone-alt"></i>
-        <p class="pb-2">+32-3224-3423-454</p>
-      </div>
-
-      <div>
-        <i class="fas fa-envelope"></i>
-        <p class="pb-2">abc@abc.com</p>
-      </div>
-
-    </div>
-  </section>
-  <!-----------------------------Contact----------------------------->
-
-
-
-
-  <!---------------------------ici-footer----------------------------->
-  <footer id="footer">
-    <div id="bg-dark">
-      <div id="aboutus">
-        <h1>About us</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi Lorem ipsum dolor sit, amet consectetur
-          adipisicing elit. Vitae, magnam? </p>
-
-        <div id="icone-footer" class="">
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-google-plus-g"></i>
-          <i class="fab fa-pinterest-p"></i>
-          <i class="fab fa-linkedin-in"></i>
-
+  
+    </section>
+    <!-----------------------------Contact----------------------------->
+  
+  
+    <!---------------------------ici-footer----------------------------->
+    <footer id="footer">
+      <div id="bg-dark" class="mt-3">
+        <div id="aboutus" class="mt-3">
+          <h1>About us</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Vitae, magnam? </p>
+  
+          <div id="icone-footer" class="">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-google-plus-g"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-linkedin-in"></i>
+  
+          </div>
+  
         </div>
-
-      </div>
-
-      <div id="insta">
-        <h1>Instagram</h1>
-        <div class="instapic">
-          <img src="./public/img/instragram_gallery_img1.jpg" alt="">
-          <img src="./public/img/instragram_gallery_img2.jpg" alt="">
-          <img src="./public/img/instragram_gallery_img1.jpg" alt="">
-          <img src="./public/img/instragram_gallery_img2.jpg" alt="">
+  
+        <div id="insta" class="mt-3">
+          <h1>Instagram</h1>
+          <div class="instapic">
+            <img src="./public/images/instragram_gallery_img1.jpg" alt="">
+            <img src="./public/images/instragram_gallery_img2.jpg" alt="">
+            <img src="./public/images/instragram_gallery_img1.jpg" alt="">
+            <img src="./public/images/instragram_gallery_img2.jpg" alt="">
+          </div>
+  
+          <div class="instapic mt-2">
+            <img src="./public/images/instragram_gallery_img1.jpg" alt="">
+            <img src="./public/images/instragram_gallery_img2.jpg" alt="">
+            <img src="./public/images/instragram_gallery_img1.jpg" alt="">
+            <img src="./public/images/instragram_gallery_img2.jpg" alt="">
+          </div>
+  
         </div>
-
-        <div class="instapic mt-2">
-          <img src="./public/img/instragram_gallery_img1.jpg" alt="">
-          <img src="./public/img/instragram_gallery_img2.jpg" alt="">
-          <img src="./public/img/instragram_gallery_img1.jpg" alt="">
-          <img src="./public/img/instragram_gallery_img2.jpg" alt="">
-        </div>
-
-      </div>
-
-      <div id="popular">
-        <h1>Popular tags</h1>
-        <div class="button mt-2">
-          <button>Restaurant</button>
-          <button>Responsive Design</button>
-          <button>Hotel</button>
-        </div>
-        <div class="button mt-2">
-          <button>Blog Section</button>
-          <button>SEO</button>
-          <button>Cuisine</button>
-        </div>
-
-        <div class="button mt-2">
-          <button>Graphic</button>
-          <button>Food</button>
+  
+        <div id="popular" class="mt-3">
+          <h1>Popular tags</h1>
+          <div class="button mt-2">
+            <button>Restaurant</button>
+            <button>Responsive Design</button>
+            <button>Hotel</button>
+          </div>
+          <div class="button mt-2">
+            <button>Blog Section</button>
+            <button>SEO</button>
+            <button>Cuisine</button>
+          </div>
+  
+          <div class="button mt-2">
+            <button>Graphic</button>
+            <button>Food</button>
+          </div>
         </div>
       </div>
-    </div>
-    <div></div>
-  </footer>
+      <div></div>
+    </footer>
+    <!---------------------------ici-footer----------------------------->
 
-  <!---------------------------ici-footer----------------------------->
+
 
 
 

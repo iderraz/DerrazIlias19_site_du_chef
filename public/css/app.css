@@ -16048,228 +16048,492 @@ h3 {
   }
 }
 body {
-  background-image: url(../img/main_bg.jpg);
-  margin: 0;
-  padding: 0;
-  /*------------------Partie header------------------*/
+  background-image: url(../images/main_bg.jpg);
+  /* media query */
+  /*responsive pour 641px à 954px*/
 }
-body #header {
-  position: relative;
-  /*------------------Partie header------------------*/
-  /*------------------Partie Carrousel------------------*/
-  /*------------------Partie Carrousel------------------*/
+body header {
+  /* navbar */
+  /* navbar */
+  /* carousel */
+  /* carousel */
 }
-body #header #navbar-div {
-  background-color: grey;
-  opacity: 0.7;
-  position: fixed;
-  z-index: 1;
+body header #new {
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 100%;
 }
-body #header #navbar-div #navbar .collapse .navbar-nav {
-  border-bottom: solid white 1px;
-  border-top: solid white 1px;
+body header #new #new2 {
+  position: fixed;
+  z-index: 1;
 }
-body #header #navbar-div #navbar .collapse .navbar-nav a:hover {
+body header #new #new2 #pack1 {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+body header #new #new2 #pack1 a {
+  color: white;
+}
+body header #new #new2 #pack1 a:hover {
   background-color: red;
 }
-body #header #carouselExampleCaptions {
-  /*------------------Partie milieu Carrousel------------------*/
-  /*------------------Partie milieu Carrousel------------------*/
+body header #new #new2 #pack2 {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
-body #header #carouselExampleCaptions ol li {
+body header #new #new2 #pack2 a {
+  color: white;
+}
+body header #new #new2 #pack2 a:hover {
+  background-color: red;
+}
+body header #carouselExampleCaptions {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+body header #carouselExampleCaptions ol li {
   height: 10px;
   width: 10px;
 }
-body #header #carouselExampleCaptions .carousel-inner {
-  position: relative;
-}
-body #header #carouselExampleCaptions .carousel-inner .carousel-item img {
-  filter: brightness(15%);
-}
-body #header #carouselExampleCaptions #p {
-  z-index: 2;
+body header #carouselExampleCaptions #p {
   position: absolute;
-  color: white;
-  margin-top: 20%;
-  margin-left: 32%;
-  text-align: center;
+  z-index: 1;
 }
-body #header #carouselExampleCaptions #p h1 {
+body header #carouselExampleCaptions #p h1 {
   font-family: "Courgette", cursive;
+  color: white;
 }
-body #header #carouselExampleCaptions #p h1 .rouge {
+body header #carouselExampleCaptions #p h1 .rouge {
   color: red;
   font-size: 125%;
 }
-body #header #carouselExampleCaptions #p h1 .blanc {
+body header #carouselExampleCaptions #p h1 .blanc {
   font-size: 125%;
 }
-body #header #carouselExampleCaptions #p #space-button {
+body header #carouselExampleCaptions #p #space-button {
   display: flex;
-  justify-content: space-between;
-  width: 60%;
-  margin-left: 20%;
-  margin-top: 10%;
+  justify-content: space-evenly;
+  align-items: center;
 }
-body #header #carouselExampleCaptions #p #space-button button {
+body header #carouselExampleCaptions #p #space-button button {
   font-size: 20px;
   border-radius: 10em/10em;
   padding: 2%;
   border: none;
+  width: 30%;
 }
-body #header #carouselExampleCaptions #p #space-button #button-red:hover {
+body header #carouselExampleCaptions #p #space-button .button-red:hover {
   background-color: red;
 }
-body #header #img-en-dent {
-  background-image: url(../img/footer_bottom_decoration_img.png);
-  background-color: black;
-  position: absolute;
-  width: 100%;
-  height: 10px;
-  transform: rotate(180deg);
+body header #carouselExampleCaptions .carousel-inner {
+  filter: brightness(30%);
+}
+@media (min-width: 320px) and (max-width: 640px) {
+  body header #new #new2 {
+    flex-direction: column;
+  }
+  body header #new #new2 #pack1 a {
+    font-size: 70%;
+  }
+  body header #new #new2 #pack2 {
+    border-top: none;
+  }
+  body header #new #new2 #pack2 a {
+    font-size: 70%;
+  }
+  body header #new #new2 img {
+    display: none;
+  }
+  body header #carouselExampleCaptions #p {
+    margin-top: 10%;
+  }
+  body header #carouselExampleCaptions #p h1 {
+    font-size: 80%;
+  }
+  body header #carouselExampleCaptions #p #space-button {
+    display: none;
+  }
+  body #image-en-dent #dentier {
+    display: none;
+  }
+}
+@media (min-width: 641px) and (max-width: 954px) {
+  body header #new #new2 {
+    flex-direction: column;
+  }
+  body header #new #new2 #pack1 a {
+    font-size: 120%;
+  }
+  body header #new #new2 #pack2 {
+    border-top: none;
+  }
+  body header #new #new2 #pack2 a {
+    font-size: 120%;
+  }
+  body header #new #new2 img {
+    display: none;
+  }
+  body header #carouselExampleCaptions #p {
+    margin-top: 5%;
+  }
+  body header #carouselExampleCaptions #p h1 {
+    font-size: 150%;
+  }
+  body header #carouselExampleCaptions #p #space-button {
+    font-size: 10%;
+    width: 170%;
+    margin-left: -33%;
+  }
+  body #image-en-dent #dentier {
+    display: none;
+  }
 }
 
-/*Media query 320-640*/
-@media only screen and (max-width: 900px) {
-  html {
-    width: 100vw;
-    overflow-x: hidden;
-  }
-
-  header {
-    height: 200px;
-  }
-}
-#section-1 #page1 {
+#page-rouge {
+  margin-left: 10%;
+  margin-right: 10%;
   position: relative;
   background-color: white;
-  width: 100%;
-  height: 1150px;
-  padding-left: 0;
-  padding-right: 0;
 }
-#section-1 #page1 #topleft {
+#page-rouge #topleft {
   position: absolute;
   top: 0;
   left: 0;
 }
-#section-1 #page1 #topright {
+#page-rouge #topright {
   position: absolute;
   top: 0;
   right: 0;
 }
-#section-1 #page1 #botleft {
+#page-rouge #botleft {
   position: absolute;
   bottom: 0;
   left: 0;
 }
-#section-1 #page1 #botright {
+#page-rouge #botright {
   position: absolute;
   bottom: 0;
   right: 0;
 }
-#section-1 #page1 #ourstory {
-  position: absolute;
-  width: 40%;
-  margin-left: 30%;
-}
-#section-1 #page1 #ourstory h1 {
-  font-family: "Courgette", cursive;
-}
-#section-1 #page1 #ourstory h1 .rouge {
-  color: red;
-  font-size: 125%;
-}
-#section-1 #page1 #ourstory p {
-  max-width: fit-content;
-}
-#section-1 #page1 #ourmenu {
-  position: absolute;
-  margin-left: 36%;
-  margin-top: 25%;
-}
-#section-1 #page1 #ourmenu h1 {
-  margin: 0;
-  font-family: "Courgette", cursive;
-}
-#section-1 #page1 #ourmenu h1 .rouge {
-  color: red;
-  font-size: 125%;
-}
-#section-1 #page1 .menu #list-example {
-  position: absolute;
-  margin-top: 35%;
-}
-#section-1 #page1 .menu .list-grp {
-  width: 25%;
-}
-#section-1 #page1 .menu .list-grp a > i {
-  font-size: 325%;
-  color: #CECFD1;
-}
-#section-1 #page1 .menu .list-grp a {
-  font-family: "Courgette", cursive;
-}
-#section-1 #page1 .menu .list-grp a span {
-  font-size: 175%;
-}
-#section-1 #page1 .menu .list-grp > a > i:hover {
-  color: red;
-}
-#section-1 #page1 .menu .list-grp > a:hover {
-  border-right: 5px solid red;
-}
-#section-1 #page1 .menu .liste-1, #section-1 #page1 .menu .liste-2 {
-  margin-top: 35%;
-  width: 40%;
-  margin-left: 30%;
-}
-#section-1 #page1 .menu .liste-1 .div1, #section-1 #page1 .menu .liste-1 .div2, #section-1 #page1 .menu .liste-1 .div3, #section-1 #page1 .menu .liste-1 .div4, #section-1 #page1 .menu .liste-1 .div5, #section-1 #page1 .menu .liste-2 .div1, #section-1 #page1 .menu .liste-2 .div2, #section-1 #page1 .menu .liste-2 .div3, #section-1 #page1 .menu .liste-2 .div4, #section-1 #page1 .menu .liste-2 .div5 {
-  border-bottom: dotted 2px #CECFD1;
-  padding: 1%;
-}
-#section-1 #page1 .menu .liste-1 .div1 img, #section-1 #page1 .menu .liste-1 .div2 img, #section-1 #page1 .menu .liste-1 .div3 img, #section-1 #page1 .menu .liste-1 .div4 img, #section-1 #page1 .menu .liste-1 .div5 img, #section-1 #page1 .menu .liste-2 .div1 img, #section-1 #page1 .menu .liste-2 .div2 img, #section-1 #page1 .menu .liste-2 .div3 img, #section-1 #page1 .menu .liste-2 .div4 img, #section-1 #page1 .menu .liste-2 .div5 img {
-  height: 100px;
-  border-radius: 50%;
-  border: 4px solid #CECFD1;
-}
-#section-1 #page1 .menu .liste-1 .div1 p:nth-child(3), #section-1 #page1 .menu .liste-1 .div2 p:nth-child(3), #section-1 #page1 .menu .liste-1 .div3 p:nth-child(3), #section-1 #page1 .menu .liste-1 .div4 p:nth-child(3), #section-1 #page1 .menu .liste-1 .div5 p:nth-child(3), #section-1 #page1 .menu .liste-2 .div1 p:nth-child(3), #section-1 #page1 .menu .liste-2 .div2 p:nth-child(3), #section-1 #page1 .menu .liste-2 .div3 p:nth-child(3), #section-1 #page1 .menu .liste-2 .div4 p:nth-child(3), #section-1 #page1 .menu .liste-2 .div5 p:nth-child(3) {
-  background-color: #CECFD1;
-  height: 25px;
-  width: 13%;
-  color: red;
+#page-rouge #ourstory {
   text-align: center;
-  width: 20%;
-  font-weight: bold;
+}
+#page-rouge #ourstory h1 {
+  font-family: "Courgette", cursive;
+}
+#page-rouge #ourstory h1 .rouge {
+  color: red;
+  font-size: 125%;
+}
+#page-rouge #ourstory p {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 33em;
+}
+#page-rouge #ourmenu {
+  text-align: center;
+}
+#page-rouge #ourmenu h1 {
+  font-family: "Courgette", cursive;
+}
+#page-rouge #ourmenu h1 .rouge {
+  color: red;
+  font-size: 125%;
+}
+#page-rouge #cafe #click #v-pills-tab a {
+  border-bottom: 1px solid #CECFD1;
+}
+#page-rouge #cafe #cafe-baba #v-pills-tabContent #v-pills-home .rowland .colle .div1 {
+  border-bottom: 1px #CECFD1 dotted;
+}
+#page-rouge #cafe #cafe-baba #v-pills-tabContent #v-pills-home .rowland .colle .div1 img {
+  border-radius: 50%;
+  border: solid 4px lightblue;
+}
+#page-rouge #cafe #cafe-baba #v-pills-tabContent #v-pills-home .rowland .colle .div1 .dollar {
+  width: 15%;
+  background-color: #CECFD1;
+  text-align: center;
+  color: red;
+}
+#page-rouge #cafe #cafe-baba #v-pills-tabContent #v-pills-profile .rowland .colle .div1 {
+  border-bottom: 1px #CECFD1 dotted;
+}
+#page-rouge #cafe #cafe-baba #v-pills-tabContent #v-pills-profile .rowland .colle .div1 img {
+  border-radius: 50%;
+  border: solid 4px lightblue;
+}
+#page-rouge #cafe #cafe-baba #v-pills-tabContent #v-pills-profile .rowland .colle .div1 .dollar {
+  width: 15%;
+  background-color: #CECFD1;
+  text-align: center;
+  color: red;
+}
+#page-rouge #cafe #cafe-baba #v-pills-tabContent #v-pills-messages .rowland .colle .div1 {
+  border-bottom: 1px #CECFD1 dotted;
+}
+#page-rouge #cafe #cafe-baba #v-pills-tabContent #v-pills-messages .rowland .colle .div1 img {
+  border-radius: 50%;
+  border: solid 4px lightblue;
+}
+#page-rouge #cafe #cafe-baba #v-pills-tabContent #v-pills-messages .rowland .colle .div1 .dollar {
+  width: 15%;
+  background-color: #CECFD1;
+  text-align: center;
+  color: red;
+}
+#page-rouge #cafe #cafe-baba #v-pills-tabContent #v-pills-settings .rowland .colle .div1 {
+  border-bottom: 1px #CECFD1 dotted;
+}
+#page-rouge #cafe #cafe-baba #v-pills-tabContent #v-pills-settings .rowland .colle .div1 img {
+  border-radius: 50%;
+  border: solid 4px lightblue;
+}
+#page-rouge #cafe #cafe-baba #v-pills-tabContent #v-pills-settings .rowland .colle .div1 .dollar {
+  width: 15%;
+  background-color: #CECFD1;
+  text-align: center;
+  color: red;
+}
+#page-rouge #imageu {
+  text-align: center;
 }
 
+@media (min-width: 320px) and (max-width: 640px) {
+  #page-rouge {
+    margin: 0;
+    position: relative;
+    background-color: white;
+  }
+  #page-rouge #topleft {
+    display: none;
+  }
+  #page-rouge #topright {
+    display: none;
+  }
+  #page-rouge #botleft {
+    display: none;
+  }
+  #page-rouge #botright {
+    display: none;
+  }
+  #page-rouge #ourstory {
+    text-align: center;
+  }
+  #page-rouge #ourstory h1 {
+    font-family: "Courgette", cursive;
+  }
+  #page-rouge #ourstory h1 .rouge {
+    color: red;
+    font-size: 75%;
+  }
+  #page-rouge #ourstory img {
+    display: none;
+  }
+  #page-rouge #ourstory p {
+    display: none;
+  }
+  #page-rouge #ourmenu {
+    text-align: center;
+  }
+  #page-rouge #ourmenu h1 {
+    font-family: "Courgette", cursive;
+  }
+  #page-rouge #ourmenu h1 .rouge {
+    color: red;
+    font-size: 75%;
+  }
+  #page-rouge #ourmenu img {
+    display: none;
+  }
+  #page-rouge #cafe-baba #click #v-pills-tab a i {
+    height: 10px;
+    width: 10px;
+  }
+  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-home .rowland .colle .div1 {
+    border-bottom: 1px #CECFD1 dotted;
+  }
+  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-home .rowland .colle .div1 img {
+    height: 50px;
+    width: 50px;
+    border: solid 2px lightblue;
+  }
+  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-home .rowland .colle .div1 div h6, #page-rouge #cafe-baba #v-pills-tabContent #v-pills-home .rowland .colle .div1 div p {
+    font-size: 30%;
+  }
+  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-home .rowland .colle .div1 .dollar {
+    width: 5%;
+    background-color: #CECFD1;
+    text-align: center;
+    color: red;
+  }
+  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-profile .rowland .colle .div1 {
+    border-bottom: 1px #CECFD1 dotted;
+  }
+  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-profile .rowland .colle .div1 img {
+    border-radius: 50%;
+    border: solid 4px lightblue;
+  }
+  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-profile .rowland .colle .div1 .dollar {
+    width: 15%;
+    background-color: #CECFD1;
+    text-align: center;
+    color: red;
+  }
+  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-messages .rowland .colle .div1 {
+    border-bottom: 1px #CECFD1 dotted;
+  }
+  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-messages .rowland .colle .div1 img {
+    border-radius: 50%;
+    border: solid 4px lightblue;
+  }
+  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-messages .rowland .colle .div1 .dollar {
+    width: 15%;
+    background-color: #CECFD1;
+    text-align: center;
+    color: red;
+  }
+  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-settings .rowland .colle .div1 {
+    border-bottom: 1px #CECFD1 dotted;
+  }
+  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-settings .rowland .colle .div1 img {
+    border-radius: 50%;
+    border: solid 4px lightblue;
+  }
+  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-settings .rowland .colle .div1 .dollar {
+    width: 15%;
+    background-color: #CECFD1;
+    text-align: center;
+    color: red;
+  }
+}
+@media (min-width: 641px) and (max-width: 900px) {
+  #page-rouge {
+    margin: 0;
+    position: relative;
+    background-color: white;
+  }
+  #page-rouge #topleft {
+    display: none;
+  }
+  #page-rouge #topright {
+    display: none;
+  }
+  #page-rouge #botleft {
+    display: none;
+  }
+  #page-rouge #botright {
+    display: none;
+  }
+  #page-rouge #ourstory {
+    text-align: center;
+  }
+  #page-rouge #ourstory h1 {
+    font-family: "Courgette", cursive;
+  }
+  #page-rouge #ourstory h1 .rouge {
+    color: red;
+    font-size: 75%;
+  }
+  #page-rouge #ourstory img {
+    display: none;
+  }
+  #page-rouge #ourstory p {
+    display: none;
+  }
+  #page-rouge #ourmenu {
+    text-align: center;
+  }
+  #page-rouge #ourmenu h1 {
+    font-family: "Courgette", cursive;
+  }
+  #page-rouge #ourmenu h1 .rouge {
+    color: red;
+    font-size: 75%;
+  }
+  #page-rouge #ourmenu img {
+    display: none;
+  }
+  #page-rouge #cafe-baba #click #v-pills-tab a i {
+    height: 10px;
+    width: 10px;
+  }
+  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-home .rowland .colle .div1 {
+    border-bottom: 1px #CECFD1 dotted;
+  }
+  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-home .rowland .colle .div1 img {
+    height: 50px;
+    width: 50px;
+    border: solid 2px lightblue;
+  }
+  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-home .rowland .colle .div1 div h6, #page-rouge #cafe-baba #v-pills-tabContent #v-pills-home .rowland .colle .div1 div p {
+    font-size: 30%;
+  }
+  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-home .rowland .colle .div1 .dollar {
+    width: 5%;
+    background-color: #CECFD1;
+    text-align: center;
+    color: red;
+  }
+  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-profile .rowland .colle .div1 {
+    border-bottom: 1px #CECFD1 dotted;
+  }
+  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-profile .rowland .colle .div1 img {
+    border-radius: 50%;
+    border: solid 4px lightblue;
+  }
+  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-profile .rowland .colle .div1 .dollar {
+    width: 15%;
+    background-color: #CECFD1;
+    text-align: center;
+    color: red;
+  }
+  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-messages .rowland .colle .div1 {
+    border-bottom: 1px #CECFD1 dotted;
+  }
+  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-messages .rowland .colle .div1 img {
+    border-radius: 50%;
+    border: solid 4px lightblue;
+  }
+  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-messages .rowland .colle .div1 .dollar {
+    width: 15%;
+    background-color: #CECFD1;
+    text-align: center;
+    color: red;
+  }
+  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-settings .rowland .colle .div1 {
+    border-bottom: 1px #CECFD1 dotted;
+  }
+  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-settings .rowland .colle .div1 img {
+    border-radius: 50%;
+    border: solid 4px lightblue;
+  }
+  #page-rouge #cafe-baba #v-pills-tabContent #v-pills-settings .rowland .colle .div1 .dollar {
+    width: 15%;
+    background-color: #CECFD1;
+    text-align: center;
+    color: red;
+  }
+}
 #section-chef {
   background-color: black;
-  width: 100%;
-  height: 600px;
 }
 #section-chef #meetourchef {
-  padding-top: 2%;
+  text-align: center;
 }
 #section-chef #meetourchef h1 {
-  margin: 0;
   font-family: "Courgette", cursive;
 }
 #section-chef #meetourchef h1 .rouge {
   color: red;
   font-size: 125%;
 }
-#section-chef #meetourchef img {
-  margin-left: 36%;
-}
 #section-chef #chef {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 5%;
   text-align: center;
 }
 #section-chef #chef div img {
@@ -16278,83 +16542,173 @@ body #header #img-en-dent {
 #section-chef #chef div p {
   color: white;
 }
+#section-chef #chef div p::after {
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 20px;
+}
 
+/*responsive pour 320px à 640px*/
+/*responsive pour 641px à 900px*/
 #page-grise {
   position: relative;
-}
-#page-grise #container {
-  position: relative;
-  height: 1200px;
+  margin-left: 10%;
+  margin-right: 10%;
   background-color: white;
-  padding: 0;
+  text-align: center;
 }
-#page-grise #container img:first-of-type {
+#page-grise img:first-of-type {
   position: absolute;
   top: 0;
   right: 0;
 }
-#page-grise #container img:nth-of-type(2) {
+#page-grise img:nth-of-type(2) {
   position: absolute;
   top: 0;
   left: 0;
 }
-#page-grise #container img:nth-of-type(3) {
+#page-grise img:nth-of-type(3) {
   position: absolute;
   bottom: 0;
   right: 0;
 }
-#page-grise #container img:nth-of-type(4) {
+#page-grise img:nth-of-type(4) {
   position: absolute;
   bottom: 0;
   left: 0;
 }
-#page-grise #container h1 {
+#page-grise #book {
+  text-align: center;
+}
+#page-grise #book h1 {
   font-family: "Courgette", cursive;
 }
-#page-grise #container h1 .rouge {
+#page-grise #book h1 .rouge {
   color: red;
   font-size: 125%;
-  margin-left: 36%;
 }
-#page-grise #container p {
-  max-width: fit-content;
-}
-#page-grise #container .les-input {
-  background-image: url(../img/book_table_bg.jpg);
-  display: flex;
-  justify-content: center;
-  height: 500px;
-  width: 80%;
+#page-grise #inputs {
+  background-image: url(../images/book_table_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-left: 10%;
-  margin-top: 7%;
-  border-radius: 2em/2em;
+  margin-right: 10%;
+  border-radius: 1em/1em;
 }
-#page-grise #container .les-input .row {
+#page-grise #inputs p {
+  color: white;
+}
+#page-grise #inputs p .grosse {
+  font-size: 110%;
+}
+#page-grise #inputs #contact-center {
   display: flex;
   justify-content: center;
-  margin-left: 15%;
+  align-items: center;
 }
-#page-grise #container .les-input .row .col-6 {
-  display: flex;
-  flex-direction: column;
+#page-grise #inputs #contact-center .collle {
+  width: 50%;
 }
-#page-grise #container .les-input button {
+#page-grise #inputs #contact-center .collle input {
+  margin-bottom: 3%;
+  border-radius: 1em/1em;
+  padding: 3%;
+}
+#page-grise #inputs #contact-center .collle #inputState {
+  margin-bottom: 6%;
+  border-radius: 1em/1em;
+}
+#page-grise #inputs #contact-center .boutton-book {
+  color: white;
+  background: red;
+  border-radius: 10em/10em;
+  padding: 1%;
+  width: 15%;
+}
+#page-grise #blog {
   text-align: center;
-  width: 35%;
-  border-radius: 2em/2em;
-  border: none;
+}
+#page-grise #blog h1 {
+  font-family: "Courgette", cursive;
+}
+#page-grise #blog h1 .rouge {
+  color: red;
+  font-size: 125%;
+}
+#page-grise #blogo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#page-grise #blogo #img-one {
+  background-image: url(../images/blog_img1.jpg);
+  height: 200px;
+  width: 400px;
+  border-radius: 1em/1em;
+  border: lightblue solid 4px;
+  position: relative;
+}
+#page-grise #blogo #img-one p {
+  background-color: red;
+  border-radius: 1em/1em;
+  max-width: max-content;
+  position: absolute;
+  bottom: -15%;
+  left: 12%;
+  padding: 3%;
+  color: white;
+}
+#page-grise #blogo #img-one p .big {
+  font-size: 150%;
+}
+#page-grise #blogo #img-two {
+  background-image: url(../images/blog_img2.jpg);
+  height: 200px;
+  width: 400px;
+  border-radius: 1em/1em;
+  border: lightblue solid 4px;
+  position: relative;
+}
+#page-grise #blogo #img-two p {
+  background-color: red;
+  border-radius: 1em/1em;
+  max-width: max-content;
+  position: absolute;
+  bottom: -15%;
+  left: 12%;
+  padding: 3%;
+  color: white;
+}
+#page-grise #blogo #img-two p .big {
+  font-size: 150%;
+}
+#page-grise #texto {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#page-grise #texto div {
+  text-align: left;
+}
+#page-grise .boutton-book {
+  color: white;
+  background: red;
+  border-radius: 10em/10em;
+  padding: 1%;
+  width: 15%;
 }
 
+/*responsive pour 320px à 640px*/
+/*responsive pour 641px à 900px*/
 #client {
-  background-image: url(../img/testimonials_background.jpg);
+  background-image: url(../images/testimonials_background.jpg);
   height: 450px;
 }
 #client #ourbook {
-  padding-top: 1%;
   text-align: center;
 }
 #client #ourbook h1 {
-  margin: 0;
   font-family: "Courgette", cursive;
   color: black;
 }
@@ -16363,8 +16717,6 @@ body #header #img-en-dent {
   font-size: 125%;
 }
 #client #img-et-text {
-  margin-top: 5%;
-  margin-bottom: 5%;
   display: flex;
   justify-content: space-evenly;
 }
@@ -16386,6 +16738,8 @@ body #header #img-en-dent {
   color: red;
 }
 
+/*responsive pour 320px à 640px*/
+/*responsive pour 641px à 900px*/
 #contact {
   text-align: center;
 }
@@ -16396,30 +16750,34 @@ body #header #img-en-dent {
   color: red;
   font-size: 125%;
 }
-#contact #carré {
+#contact #carré-dom {
+  display: flex;
+  justify-content: center;
+}
+#contact #carré-dom #carré {
   padding: 2%;
   border-radius: 1em/1em;
   background-color: red;
   max-width: fit-content;
-  margin-left: 36%;
 }
-#contact #carré div p {
+#contact #carré-dom #carré div p {
   color: white;
   border-bottom: white solid 1px;
 }
-#contact #carré div i {
+#contact #carré-dom #carré div i {
   color: white;
+  font-size: 3em;
 }
 
+/*responsive pour 320px à 640px*/
+/*responsive pour 641px à 900px*/
 footer {
   background-color: red;
-  width: 100%;
   height: 300px;
 }
 footer #bg-dark {
-  width: 100%;
-  height: 250px;
-  background-image: url(../img/footer_background.jpg);
+  height: 80%;
+  background-image: url(../images/footer_background.jpg);
   background-position: center;
   display: flex;
   justify-content: space-evenly;
@@ -16459,5 +16817,8 @@ footer #bg-dark #popular .button button {
   border: 1px white solid;
   border-radius: 10em/10em;
 }
+
+/*responsive pour 320px à 640px*/
+/*responsive pour 641px à 900px*/
 
 /*# sourceMappingURL=app.css.map */

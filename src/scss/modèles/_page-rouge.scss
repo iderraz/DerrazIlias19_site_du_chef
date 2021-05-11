@@ -1,11 +1,9 @@
-#section-1{
-    #page1{
-        position: relative;
-        background-color: white;
-        width: 100%; 
-        height: 1150px;
-        padding-left: 0;
-        padding-right: 0;
+#page-rouge{
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+    background-color: white;
+
 
         #topleft{
             position: absolute;
@@ -27,32 +25,25 @@
             bottom: 0;
             right: 0;
         }
-
-
         #ourstory{
-            position: absolute;
-            width: 40%;
-            margin-left: 30%;
-
-           h1{
-            font-family: 'Courgette', cursive;
-                .rouge{
-                color: red;
-                font-size: 125%;
-                }
-           }
-           p{
-               max-width: fit-content;
-           }   
-        }
-
-        #ourmenu{
-            position: absolute;
-            margin-left: 36%;
-            margin-top: 25%;
-
+            text-align: center;
             h1{
-                margin: 0;
+                font-family: 'Courgette', cursive;
+                    .rouge{
+                    color: red;
+                    font-size: 125%;
+                    }
+               }
+               p{  
+                   margin-left: auto;
+                   margin-right: auto;
+                   text-align: center;
+                   width:33em;  
+               }    
+        }
+        #ourmenu{
+            text-align: center;
+            h1{
              font-family: 'Courgette', cursive;
                  .rouge{
                  color: red;
@@ -62,62 +53,508 @@
         }
 
 
-   
-        .menu{
 
-            #list-example{
-                position: absolute;
-                margin-top: 35%;
-            }
-            
-            .list-grp{
-                 width: 25%;
-                a>i{
-                    font-size: 325%;
-                    color:#CECFD1;   
-                }
+
+
+        
+    #cafe{
+        #click{
+            #v-pills-tab{
                 a{
-                    font-family: 'Courgette', cursive;
-                    span{
-                        font-size: 175%;
-                    }   
-                }
-            } 
-
-            .list-grp>a>i:hover{
-                    color: red;
-                    }
-            .list-grp>a:hover{
-                border-right: 5px solid red;
-            }
-
-            .liste-1,.liste-2{
-
-                margin-top: 35% ;
-                width: 40%;
-                margin-left: 30%;
-                .div1,.div2,.div3,.div4,.div5{
-                    border-bottom: dotted 2px #CECFD1;
-                     padding: 1%;
-                    img{
-                        height: 100px;
-                        border-radius: 50%;
-                        border: 4px solid #CECFD1;
-                    }
-                    p:nth-child(3){
-                        background-color: #CECFD1;
-                        height: 25px;
-                        width: 13%;
-                        color: red;
-                        text-align: center;
-                        width: 20%;
-                        font-weight: bold;
-                    }
+                    border-bottom: 1px solid #CECFD1;
                 }
             }
-        } 
+
+        }
+
+        #cafe-baba{
+            #v-pills-tabContent{
+                #v-pills-home{
+                    .rowland{
+                        .colle{
+                            
+                            .div1{
+                                border-bottom: 1px #CECFD1 dotted;
+                               
+                                
+                                img{
+                                    border-radius: 50%;
+                                    border: solid 4px lightblue;
+                                }
+                                .dollar{
+                                    width: 15%;
+                                    background-color: #CECFD1;
+                                    text-align: center;
+                                    color: red;
+                                }
+
+                            }
+                        }
+                    }
+                }
+
+
+
+
+                #v-pills-profile{
+                    .rowland{
+                        .colle{
+                            
+                            .div1{
+                                border-bottom: 1px #CECFD1 dotted;
+                                
+                                img{
+                                    border-radius: 50%;
+                                    border: solid 4px lightblue;
+                                }
+                                .dollar{
+                                    width: 15%;
+                                    background-color: #CECFD1;
+                                    text-align: center;
+                                    color: red;
+                                }
+
+                            }
+                        }
+                    }
+                }
+
+
+
+
+                #v-pills-messages{
+                    .rowland{
+                        .colle{
+                            
+                            .div1{
+                                border-bottom: 1px #CECFD1 dotted;
+                                
+                                img{
+                                    border-radius: 50%;
+                                    border: solid 4px lightblue;
+                                }
+                                .dollar{
+                                    width: 15%;
+                                    background-color: #CECFD1;
+                                    text-align: center;
+                                    color: red;
+                                }
+
+                            }
+                        }
+                    }
+                }
+
+
+
+
+                #v-pills-settings{
+                    .rowland{
+                        .colle{
+                            
+                            .div1{
+                                border-bottom: 1px #CECFD1 dotted;
+                                
+                                img{
+                                    border-radius: 50%;
+                                    border: solid 4px lightblue;
+                                }
+                                .dollar{
+                                    width: 15%;
+                                    background-color: #CECFD1;
+                                    text-align: center;
+                                    color: red;
+                                }
+
+                            }
+                        }
+                    }
+                }
+
+            }
+        }   
+    }
+    #imageu{
+        text-align: center;
     }
 }
+
+
+
+@media (min-width:320px) and (max-width:640px){
+    #page-rouge{
+        margin: 0;
+        position: relative;
+        background-color: white;
+    
+    
+            #topleft{
+                display: none;
+            }
+            #topright{
+                display: none;
+
+            }
+            #botleft{
+                display: none;
+
+            }
+            #botright{
+                display: none;
+
+            }
+            #ourstory{
+                text-align: center;
+                h1{
+                    font-family: 'Courgette', cursive;
+                        .rouge{
+                        color: red;
+                        font-size: 75%;
+                        }
+                   }
+                   img{
+                       display: none;
+                   }
+                   p{  
+                    display: none;
+                   }    
+            }
+            #ourmenu{
+                text-align: center;
+                h1{
+                 font-family: 'Courgette', cursive;
+                     .rouge{
+                     color: red;
+                     font-size: 75%;
+                     }
+                }
+                img{ 
+                    display: none;
+                }
+            }
+
+            #cafe-baba{
+                #click{
+                    #v-pills-tab{
+                        a{
+                            i{
+                                height: 10px;
+                                width: 10px;
+                            }
+                        }
+                    }
+                }
+                #v-pills-tabContent{
+                    #v-pills-home{
+                        .rowland{
+                            .colle{
+                                
+                                .div1{
+                                    border-bottom: 1px #CECFD1 dotted;
+                                   
+                                    
+                                    img{
+                                        height: 50px;
+                                        width: 50px;
+                                        border: solid 2px lightblue;
+                
+                                    }
+                                    div{
+                                        h6,p{
+                                            font-size: 30%;
+                                        }
+                                    }
+                                    .dollar{
+                                        width: 5%;
+                                        background-color: #CECFD1;
+                                        text-align: center;
+                                        color: red;
+                                    }
+    
+                                }
+                            }
+                        }
+                    }
+    
+    
+    
+    
+                    #v-pills-profile{
+                        .rowland{
+                            .colle{
+                                
+                                .div1{
+                                    border-bottom: 1px #CECFD1 dotted;
+                                    
+                                    img{
+                                        border-radius: 50%;
+                                        border: solid 4px lightblue;
+                                    }
+                                    .dollar{
+                                        width: 15%;
+                                        background-color: #CECFD1;
+                                        text-align: center;
+                                        color: red;
+                                    }
+    
+                                }
+                            }
+                        }
+                    }
+    
+    
+    
+    
+                    #v-pills-messages{
+                        .rowland{
+                            .colle{
+                                
+                                .div1{
+                                    border-bottom: 1px #CECFD1 dotted;
+                                    
+                                    img{
+                                        border-radius: 50%;
+                                        border: solid 4px lightblue;
+                                    }
+                                    .dollar{
+                                        width: 15%;
+                                        background-color: #CECFD1;
+                                        text-align: center;
+                                        color: red;
+                                    }
+    
+                                }
+                            }
+                        }
+                    }
+    
+    
+    
+    
+                    #v-pills-settings{
+                        .rowland{
+                            .colle{
+                                
+                                .div1{
+                                    border-bottom: 1px #CECFD1 dotted;
+                                    
+                                    img{
+                                        border-radius: 50%;
+                                        border: solid 4px lightblue;
+                                    }
+                                    .dollar{
+                                        width: 15%;
+                                        background-color: #CECFD1;
+                                        text-align: center;
+                                        color: red;
+                                    }
+    
+                                }
+                            }
+                        }
+                    }
+    
+                }
+    
+    
+    
+    
+    
+                }
+    
+    }
+
+    }
+
+    @media (min-width:641px) and (max-width:900px){
+        #page-rouge{
+        margin: 0;
+        position: relative;
+        background-color: white;
+    
+    
+            #topleft{
+                display: none;
+            }
+            #topright{
+                display: none;
+
+            }
+            #botleft{
+                display: none;
+
+            }
+            #botright{
+                display: none;
+
+            }
+            #ourstory{
+                text-align: center;
+                h1{
+                    font-family: 'Courgette', cursive;
+                        .rouge{
+                        color: red;
+                        font-size: 75%;
+                        }
+                   }
+                   img{
+                       display: none;
+                   }
+                   p{  
+                    display: none;
+                   }    
+            }
+            #ourmenu{
+                text-align: center;
+                h1{
+                 font-family: 'Courgette', cursive;
+                     .rouge{
+                     color: red;
+                     font-size: 75%;
+                     }
+                }
+                img{ 
+                    display: none;
+                }
+            }
+
+            #cafe-baba{
+                #click{
+                    #v-pills-tab{
+                        a{
+                            i{
+                                height: 10px;
+                                width: 10px;
+                            }
+                        }
+                    }
+                }
+                #v-pills-tabContent{
+                    #v-pills-home{
+                        .rowland{
+                            .colle{
+                                
+                                .div1{
+                                    border-bottom: 1px #CECFD1 dotted;
+                                   
+                                    
+                                    img{
+                                        height: 50px;
+                                        width: 50px;
+                                        border: solid 2px lightblue;
+                
+                                    }
+                                    div{
+                                        h6,p{
+                                            font-size: 30%;
+                                        }
+                                    }
+                                    .dollar{
+                                        width: 5%;
+                                        background-color: #CECFD1;
+                                        text-align: center;
+                                        color: red;
+                                    }
+    
+                                }
+                            }
+                        }
+                    }
+    
+    
+    
+    
+                    #v-pills-profile{
+                        .rowland{
+                            .colle{
+                                
+                                .div1{
+                                    border-bottom: 1px #CECFD1 dotted;
+                                    
+                                    img{
+                                        border-radius: 50%;
+                                        border: solid 4px lightblue;
+                                    }
+                                    .dollar{
+                                        width: 15%;
+                                        background-color: #CECFD1;
+                                        text-align: center;
+                                        color: red;
+                                    }
+    
+                                }
+                            }
+                        }
+                    }
+    
+    
+    
+    
+                    #v-pills-messages{
+                        .rowland{
+                            .colle{
+                                
+                                .div1{
+                                    border-bottom: 1px #CECFD1 dotted;
+                                    
+                                    img{
+                                        border-radius: 50%;
+                                        border: solid 4px lightblue;
+                                    }
+                                    .dollar{
+                                        width: 15%;
+                                        background-color: #CECFD1;
+                                        text-align: center;
+                                        color: red;
+                                    }
+    
+                                }
+                            }
+                        }
+                    }
+    
+    
+    
+    
+                    #v-pills-settings{
+                        .rowland{
+                            .colle{
+                                
+                                .div1{
+                                    border-bottom: 1px #CECFD1 dotted;
+                                    
+                                    img{
+                                        border-radius: 50%;
+                                        border: solid 4px lightblue;
+                                    }
+                                    .dollar{
+                                        width: 15%;
+                                        background-color: #CECFD1;
+                                        text-align: center;
+                                        color: red;
+                                    }
+    
+                                }
+                            }
+                        }
+                    }
+    
+                }
+    
+    
+    
+    
+    
+                }
+    
+    }
+
+    }
+
+    
+
+
+
 
 
 

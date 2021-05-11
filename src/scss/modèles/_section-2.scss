@@ -1,33 +1,19 @@
 #section-chef{
-
     background-color: black;
-    width: 100%;
-    height: 600px;
-
     #meetourchef{
-        padding-top: 2%;
-
-       
-
+        text-align: center;
         h1{
-            margin: 0;
             font-family: 'Courgette', cursive;
-
              .rouge{
              color: red;
              font-size: 125%;
-
              }
-        }
-        img{
-            margin-left: 36%;
         }
     }
 
     #chef{
         display: flex;
         justify-content: space-evenly;
-        margin-top: 5%;
         text-align: center;
         div{
             img{
@@ -36,8 +22,27 @@
             p{
                 color: white;
             }
+            p::after{
+                background-color: red;
+                width: 20px;
+                height: 20px;
+                margin-bottom: 20px;
+
+            }
         }
     }
 
     }
+
+
+    
+/*responsive pour 320px à 640px*/
+@media (min-width:320px) and (max-width:640px){
+
+}
+
+/*responsive pour 641px à 900px*/
+@media (min-width:641px) and (max-width:900px){
+
+}
   
